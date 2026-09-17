@@ -1,0 +1,647 @@
+[
+  {
+    "id": "cus_001",
+    "name": "Priya Hossain",
+    "email": "priya.hossain@gmail.com",
+    "phone": "+880 1711-234567",
+    "isActive": true,
+    "segment": "new",
+    "location": {
+      "city": "Dhaka",
+      "country": "Bangladesh"
+    },
+    "totalOrders": 0,
+    "totalSpent": 0,
+    "joinedAt": "2025-07-24T20:00:00.000Z"
+  },
+  {
+    "id": "cus_002",
+    "name": "Jahid Khan",
+    "email": "jahid.khan@mail.com",
+    "phone": "+880 1812-345678",
+    "isActive": true,
+    "segment": "new",
+    "location": {
+      "city": "Chattogram",
+      "country": "Bangladesh"
+    },
+    "totalOrders": 0,
+    "totalSpent": 0,
+    "joinedAt": "2026-06-05T18:00:00.000Z"
+  },
+  {
+    "id": "cus_003",
+    "name": "Imran Akter",
+    "email": "imran.akter@mail.com",
+    "phone": "+880 1913-456789",
+    "isActive": true,
+    "segment": "new",
+    "location": {
+      "city": "Sylhet",
+      "country": "Bangladesh"
+    },
+    "totalOrders": 2,
+    "totalSpent": 728.4,
+    "joinedAt": "2025-01-13T23:00:00.000Z"
+  },
+  {
+    "id": "cus_004",
+    "name": "Shakib Rahman",
+    "email": "shakib.rahman@outlook.com",
+    "phone": "+880 1614-567890",
+    "isActive": true,
+    "segment": "regular",
+    "location": {
+      "city": "Rajshahi",
+      "country": "Bangladesh"
+    },
+    "totalOrders": 4,
+    "totalSpent": 1664.28,
+    "joinedAt": "2026-05-05T06:00:00.000Z"
+  },
+  {
+    "id": "cus_005",
+    "name": "Mizanur Chowdhury",
+    "email": "mizanur.chowdhury@gmail.com",
+    "phone": "+880 1715-678901",
+    "isActive": true,
+    "segment": "regular",
+    "location": {
+      "city": "Khulna",
+      "country": "Bangladesh"
+    },
+    "totalOrders": 1,
+    "totalSpent": 448.15,
+    "joinedAt": "2025-02-19T02:00:00.000Z"
+  },
+  {
+    "id": "cus_006",
+    "name": "Ehsan Ahmed",
+    "email": "ehsan.ahmed@outlook.com",
+    "phone": "+880 1816-789012",
+    "isActive": true,
+    "segment": "regular",
+    "location": {
+      "city": "Barishal",
+      "country": "Bangladesh"
+    },
+    "totalOrders": 3,
+    "totalSpent": 1470.27,
+    "joinedAt": "2025-05-25T21:00:00.000Z"
+  },
+  {
+    "id": "cus_007",
+    "name": "Dewan Tariq",
+    "email": "dewan.tariq@gmail.com",
+    "phone": "+880 1917-890123",
+    "isActive": true,
+    "segment": "regular",
+    "location": {
+      "city": "Rangpur",
+      "country": "Bangladesh"
+    },
+    "totalOrders": 2,
+    "totalSpent": 1106.54,
+    "joinedAt": "2025-05-30T21:00:00.000Z"
+  },
+  {
+    "id": "cus_008",
+    "name": "Oyshi Khan",
+    "email": "oyshi.khan@outlook.com",
+    "phone": "+880 1518-901234",
+    "isActive": true,
+    "segment": "regular",
+    "location": {
+      "city": "Mymensingh",
+      "country": "Bangladesh"
+    },
+    "totalOrders": 3,
+    "totalSpent": 910.99,
+    "joinedAt": "2026-06-14T22:00:00.000Z"
+  },
+  {
+    "id": "cus_009",
+    "name": "Nusrat Ahmed",
+    "email": "nusrat.ahmed@gmail.com",
+    "phone": "+880 1319-012345",
+    "isActive": true,
+    "segment": "vip",
+    "location": {
+      "city": "Cumilla",
+      "country": "Bangladesh"
+    },
+    "totalOrders": 1,
+    "totalSpent": 446.55,
+    "joinedAt": "2025-11-29T22:00:00.000Z"
+  },
+  {
+    "id": "cus_010",
+    "name": "Shirin Akter",
+    "email": "shirin.akter@outlook.com",
+    "phone": "+880 1720-123456",
+    "isActive": true,
+    "segment": "new",
+    "location": {
+      "city": "Gazipur",
+      "country": "Bangladesh"
+    },
+    "totalOrders": 0,
+    "totalSpent": 0,
+    "joinedAt": "2025-08-03T11:00:00.000Z"
+  },
+  {
+    "id": "cus_011",
+    "name": "Jahidul Islam",
+    "email": "jahidul.islam@yahoo.com",
+    "phone": "+880 1821-234567",
+    "isActive": true,
+    "segment": "regular",
+    "location": {
+      "city": "Narayanganj",
+      "country": "Bangladesh"
+    },
+    "totalOrders": 1,
+    "totalSpent": 475.18,
+    "joinedAt": "2025-11-11T19:00:00.000Z"
+  },
+  {
+    "id": "cus_012",
+    "name": "Kamal Hossain",
+    "email": "kamal.hossain@outlook.com",
+    "phone": "+880 1922-345678",
+    "isActive": true,
+    "segment": "regular",
+    "location": {
+      "city": "Bogura",
+      "country": "Bangladesh"
+    },
+    "totalOrders": 1,
+    "totalSpent": 150.66,
+    "joinedAt": "2025-06-19T05:00:00.000Z"
+  },
+  {
+    "id": "cus_013",
+    "name": "Shakib Ahmed",
+    "email": "shakib.ahmed@yahoo.com",
+    "phone": "+880 1623-456789",
+    "isActive": true,
+    "segment": "regular",
+    "location": {
+      "city": "Cox's Bazar",
+      "country": "Bangladesh"
+    },
+    "totalOrders": 2,
+    "totalSpent": 161.32,
+    "joinedAt": "2026-03-06T04:00:00.000Z"
+  },
+  {
+    "id": "cus_014",
+    "name": "Shirin Islam",
+    "email": "shirin.islam@outlook.com",
+    "phone": "+880 1724-567890",
+    "isActive": false,
+    "segment": "regular",
+    "location": {
+      "city": "Jashore",
+      "country": "Bangladesh"
+    },
+    "totalOrders": 1,
+    "totalSpent": 0,
+    "joinedAt": "2026-04-05T20:00:00.000Z"
+  },
+  {
+    "id": "cus_015",
+    "name": "Nabila Chowdhury",
+    "email": "nabila.chowdhury@mail.com",
+    "phone": "+880 1825-678901",
+    "isActive": true,
+    "segment": "regular",
+    "location": {
+      "city": "Tangail",
+      "country": "Bangladesh"
+    },
+    "totalOrders": 3,
+    "totalSpent": 990.08,
+    "joinedAt": "2026-07-09T11:00:00.000Z"
+  },
+  {
+    "id": "cus_016",
+    "name": "Sabrina Ahmed",
+    "email": "sabrina.ahmed@yahoo.com",
+    "phone": "+880 1926-789012",
+    "isActive": true,
+    "segment": "regular",
+    "location": {
+      "city": "Pabna",
+      "country": "Bangladesh"
+    },
+    "totalOrders": 4,
+    "totalSpent": 474.03,
+    "joinedAt": "2026-01-31T19:00:00.000Z"
+  },
+  {
+    "id": "cus_017",
+    "name": "Sadia Sarker",
+    "email": "sadia.sarker@yahoo.com",
+    "phone": "+880 1527-890123",
+    "isActive": true,
+    "segment": "vip",
+    "location": {
+      "city": "Dinajpur",
+      "country": "Bangladesh"
+    },
+    "totalOrders": 3,
+    "totalSpent": 632,
+    "joinedAt": "2026-08-06T17:00:00.000Z"
+  },
+  {
+    "id": "cus_018",
+    "name": "Mahmud Hasan",
+    "email": "mahmud.hasan@mail.com",
+    "phone": "+880 1728-901234",
+    "isActive": true,
+    "segment": "new",
+    "location": {
+      "city": "Dhaka",
+      "country": "Bangladesh"
+    },
+    "totalOrders": 3,
+    "totalSpent": 1058.28,
+    "joinedAt": "2026-04-29T13:00:00.000Z"
+  },
+  {
+    "id": "cus_019",
+    "name": "Delwar Hossain",
+    "email": "delwar.hossain@yahoo.com",
+    "phone": "+880 1829-012345",
+    "isActive": false,
+    "segment": "regular",
+    "location": {
+      "city": "Chattogram",
+      "country": "Bangladesh"
+    },
+    "totalOrders": 3,
+    "totalSpent": 905.56,
+    "joinedAt": "2025-12-05T08:00:00.000Z"
+  },
+  {
+    "id": "cus_020",
+    "name": "Chaity Islam",
+    "email": "chaity.islam@gmail.com",
+    "phone": "+880 1930-123456",
+    "isActive": true,
+    "segment": "new",
+    "location": {
+      "city": "Sylhet",
+      "country": "Bangladesh"
+    },
+    "totalOrders": 3,
+    "totalSpent": 1088.05,
+    "joinedAt": "2025-03-11T05:00:00.000Z"
+  },
+  {
+    "id": "cus_021",
+    "name": "Khadija Begum",
+    "email": "khadija.begum@yahoo.com",
+    "phone": "+880 1631-234567",
+    "isActive": false,
+    "segment": "vip",
+    "location": {
+      "city": "Rajshahi",
+      "country": "Bangladesh"
+    },
+    "totalOrders": 2,
+    "totalSpent": 1035.66,
+    "joinedAt": "2025-04-05T13:00:00.000Z"
+  },
+  {
+    "id": "cus_022",
+    "name": "Nadia Begum",
+    "email": "nadia.begum@outlook.com",
+    "phone": "+880 1732-345678",
+    "isActive": false,
+    "segment": "regular",
+    "location": {
+      "city": "Khulna",
+      "country": "Bangladesh"
+    },
+    "totalOrders": 5,
+    "totalSpent": 1914.51,
+    "joinedAt": "2025-03-21T06:00:00.000Z"
+  },
+  {
+    "id": "cus_023",
+    "name": "Hasan Sarker",
+    "email": "hasan.sarker@outlook.com",
+    "phone": "+880 1833-456789",
+    "isActive": true,
+    "segment": "regular",
+    "location": {
+      "city": "Barishal",
+      "country": "Bangladesh"
+    },
+    "totalOrders": 0,
+    "totalSpent": 0,
+    "joinedAt": "2025-06-02T02:00:00.000Z"
+  },
+  {
+    "id": "cus_024",
+    "name": "Jahid Hasan",
+    "email": "jahid.hasan@outlook.com",
+    "phone": "+880 1934-567890",
+    "isActive": false,
+    "segment": "regular",
+    "location": {
+      "city": "Rangpur",
+      "country": "Bangladesh"
+    },
+    "totalOrders": 1,
+    "totalSpent": 458.43,
+    "joinedAt": "2026-09-01T06:00:00.000Z"
+  },
+  {
+    "id": "cus_025",
+    "name": "Mehnaz Rahman",
+    "email": "mehnaz.rahman@outlook.com",
+    "phone": "+880 1535-678901",
+    "isActive": true,
+    "segment": "regular",
+    "location": {
+      "city": "Mymensingh",
+      "country": "Bangladesh"
+    },
+    "totalOrders": 2,
+    "totalSpent": 48.59,
+    "joinedAt": "2025-06-15T10:00:00.000Z"
+  },
+  {
+    "id": "cus_026",
+    "name": "Mahmuda Rahman",
+    "email": "mahmuda.rahman@yahoo.com",
+    "phone": "+880 1336-789012",
+    "isActive": true,
+    "segment": "regular",
+    "location": {
+      "city": "Cumilla",
+      "country": "Bangladesh"
+    },
+    "totalOrders": 2,
+    "totalSpent": 1201.47,
+    "joinedAt": "2026-04-24T21:00:00.000Z"
+  },
+  {
+    "id": "cus_027",
+    "name": "Sumaiya Hossain",
+    "email": "sumaiya.hossain@yahoo.com",
+    "phone": "+880 1737-890123",
+    "isActive": true,
+    "segment": "vip",
+    "location": {
+      "city": "Gazipur",
+      "country": "Bangladesh"
+    },
+    "totalOrders": 5,
+    "totalSpent": 3305.55,
+    "joinedAt": "2025-02-17T23:00:00.000Z"
+  },
+  {
+    "id": "cus_028",
+    "name": "Sabrina Begum",
+    "email": "sabrina.begum@yahoo.com",
+    "phone": "+880 1838-901234",
+    "isActive": false,
+    "segment": "regular",
+    "location": {
+      "city": "Narayanganj",
+      "country": "Bangladesh"
+    },
+    "totalOrders": 4,
+    "totalSpent": 2146.29,
+    "joinedAt": "2026-08-04T19:00:00.000Z"
+  },
+  {
+    "id": "cus_029",
+    "name": "Orin Hossain",
+    "email": "orin.hossain@outlook.com",
+    "phone": "+880 1939-012345",
+    "isActive": true,
+    "segment": "vip",
+    "location": {
+      "city": "Bogura",
+      "country": "Bangladesh"
+    },
+    "totalOrders": 4,
+    "totalSpent": 1093.11,
+    "joinedAt": "2026-07-01T20:00:00.000Z"
+  },
+  {
+    "id": "cus_030",
+    "name": "Farhana Yasmin",
+    "email": "farhana.yasmin@gmail.com",
+    "phone": "+880 1640-123456",
+    "isActive": true,
+    "segment": "regular",
+    "location": {
+      "city": "Cox's Bazar",
+      "country": "Bangladesh"
+    },
+    "totalOrders": 1,
+    "totalSpent": 140.39,
+    "joinedAt": "2026-03-31T08:00:00.000Z"
+  },
+  {
+    "id": "cus_031",
+    "name": "Rafiq Hossain",
+    "email": "rafiq.hossain@gmail.com",
+    "phone": "+880 1741-234567",
+    "isActive": true,
+    "segment": "regular",
+    "location": {
+      "city": "Jashore",
+      "country": "Bangladesh"
+    },
+    "totalOrders": 4,
+    "totalSpent": 844.07,
+    "joinedAt": "2025-05-05T21:00:00.000Z"
+  },
+  {
+    "id": "cus_032",
+    "name": "Sadia Sultana",
+    "email": "sadia.sultana@yahoo.com",
+    "phone": "+880 1842-345678",
+    "isActive": true,
+    "segment": "regular",
+    "location": {
+      "city": "Dhaka",
+      "country": "Bangladesh"
+    },
+    "totalOrders": 1,
+    "totalSpent": 450.35,
+    "joinedAt": "2026-07-06T10:00:00.000Z"
+  },
+  {
+    "id": "cus_033",
+    "name": "Afia Karim",
+    "email": "afia.karim@yahoo.com",
+    "phone": "+880 1943-456789",
+    "isActive": true,
+    "segment": "vip",
+    "location": {
+      "city": "Chattogram",
+      "country": "Bangladesh"
+    },
+    "totalOrders": 3,
+    "totalSpent": 750.43,
+    "joinedAt": "2025-04-02T20:00:00.000Z"
+  },
+  {
+    "id": "cus_034",
+    "name": "Aminul Islam",
+    "email": "aminul.islam@yahoo.com",
+    "phone": "+880 1544-567890",
+    "isActive": true,
+    "segment": "regular",
+    "location": {
+      "city": "Sylhet",
+      "country": "Bangladesh"
+    },
+    "totalOrders": 1,
+    "totalSpent": 0,
+    "joinedAt": "2025-03-16T10:00:00.000Z"
+  },
+  {
+    "id": "cus_035",
+    "name": "Aminul Mia",
+    "email": "aminul.mia@outlook.com",
+    "phone": "+880 1745-678901",
+    "isActive": false,
+    "segment": "regular",
+    "location": {
+      "city": "Dhaka",
+      "country": "Bangladesh"
+    },
+    "totalOrders": 4,
+    "totalSpent": 1459.98,
+    "joinedAt": "2026-06-20T01:00:00.000Z"
+  },
+  {
+    "id": "cus_036",
+    "name": "Shakib Uddin",
+    "email": "shakib.uddin@yahoo.com",
+    "phone": "+880 1846-789012",
+    "isActive": false,
+    "segment": "new",
+    "location": {
+      "city": "Rajshahi",
+      "country": "Bangladesh"
+    },
+    "totalOrders": 3,
+    "totalSpent": 2944.71,
+    "joinedAt": "2026-04-14T15:00:00.000Z"
+  },
+  {
+    "id": "cus_037",
+    "name": "Nadia Rahman",
+    "email": "nadia.rahman@mail.com",
+    "phone": "+880 1947-890123",
+    "isActive": true,
+    "segment": "new",
+    "location": {
+      "city": "Khulna",
+      "country": "Bangladesh"
+    },
+    "totalOrders": 1,
+    "totalSpent": 921.77,
+    "joinedAt": "2025-06-18T01:00:00.000Z"
+  },
+  {
+    "id": "cus_038",
+    "name": "Rahim Karim",
+    "email": "rahim.karim@mail.com",
+    "phone": "+880 1648-901234",
+    "isActive": true,
+    "segment": "regular",
+    "location": {
+      "city": "Barishal",
+      "country": "Bangladesh"
+    },
+    "totalOrders": 0,
+    "totalSpent": 0,
+    "joinedAt": "2025-02-11T20:00:00.000Z"
+  },
+  {
+    "id": "cus_039",
+    "name": "Nusrat Chowdhury",
+    "email": "nusrat.chowdhury@gmail.com",
+    "phone": "+880 1749-012345",
+    "isActive": false,
+    "segment": "new",
+    "location": {
+      "city": "Rangpur",
+      "country": "Bangladesh"
+    },
+    "totalOrders": 3,
+    "totalSpent": 1417.45,
+    "joinedAt": "2026-01-11T08:00:00.000Z"
+  },
+  {
+    "id": "cus_040",
+    "name": "Danial Haque",
+    "email": "danial.haque@yahoo.com",
+    "phone": "+880 1850-123456",
+    "isActive": true,
+    "segment": "new",
+    "location": {
+      "city": "Dhaka",
+      "country": "Bangladesh"
+    },
+    "totalOrders": 4,
+    "totalSpent": 1199.78,
+    "joinedAt": "2025-12-12T11:00:00.000Z"
+  },
+  {
+    "id": "cus_041",
+    "name": "Rafiq Mia",
+    "email": "rafiq.mia@gmail.com",
+    "phone": "+880 1951-234567",
+    "isActive": true,
+    "segment": "vip",
+    "location": {
+      "city": "Chattogram",
+      "country": "Bangladesh"
+    },
+    "totalOrders": 3,
+    "totalSpent": 660.93,
+    "joinedAt": "2026-06-20T10:00:00.000Z"
+  },
+  {
+    "id": "cus_042",
+    "name": "Rupa Chowdhury",
+    "email": "rupa.chowdhury@outlook.com",
+    "phone": "+880 1752-345678",
+    "isActive": true,
+    "segment": "new",
+    "location": {
+      "city": "Sylhet",
+      "country": "Bangladesh"
+    },
+    "totalOrders": 5,
+    "totalSpent": 1611.21,
+    "joinedAt": "2025-05-25T14:00:00.000Z"
+  },
+  {
+    "id": "cus_edge_no_orders",
+    "name": "Nabila Hasan",
+    "email": "nabila.hasan.new@gmail.com",
+    "phone": "+880 1853-456789",
+    "isActive": true,
+    "segment": "new",
+    "location": {
+      "city": "Dhaka",
+      "country": "Bangladesh"
+    },
+    "totalOrders": 0,
+    "totalSpent": 0,
+    "joinedAt": "2026-09-17T06:00:00.000Z"
+  }
+]

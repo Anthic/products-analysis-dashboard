@@ -1,0 +1,3831 @@
+[
+  {
+    "id": "ord_edge_empty",
+    "orderNumber": "ORD-2026-EDGE1",
+    "customerId": "cus_035",
+    "customerName": "Aminul Mia",
+    "customerEmail": "aminul.mia@outlook.com",
+    "status": "cancelled",
+    "paymentMethod": "card",
+    "channel": "web",
+    "shippingAddress": {
+      "city": "Dhaka",
+      "country": "Bangladesh"
+    },
+    "items": [],
+    "discount": null,
+    "subtotal": 0,
+    "tax": 0,
+    "total": 0,
+    "createdAt": "2026-09-15T09:00:00.000Z",
+    "updatedAt": "2026-09-15T10:00:00.000Z"
+  },
+  {
+    "id": "ord_edge_large",
+    "orderNumber": "ORD-2026-EDGE2",
+    "customerId": "cus_036",
+    "customerName": "Shakib Uddin",
+    "customerEmail": "shakib.uddin@yahoo.com",
+    "status": "delivered",
+    "paymentMethod": "card",
+    "channel": "web",
+    "shippingAddress": {
+      "city": "Rajshahi",
+      "country": "Bangladesh"
+    },
+    "items": [
+      {
+        "productId": "prod_016",
+        "productName": "Ring Light",
+        "quantity": 2,
+        "unitPrice": 32
+      },
+      {
+        "productId": "prod_013",
+        "productName": "Desk Lamp",
+        "quantity": 1,
+        "unitPrice": 24.5
+      },
+      {
+        "productId": "prod_007",
+        "productName": "Webcam 1080p",
+        "quantity": 2,
+        "unitPrice": 54.99
+      },
+      {
+        "productId": "prod_008",
+        "productName": "Portable SSD 1TB",
+        "quantity": 2,
+        "unitPrice": 89.99
+      },
+      {
+        "productId": "prod_010",
+        "productName": "Ergonomic Chair Cushion",
+        "quantity": 1,
+        "unitPrice": 29.99
+      },
+      {
+        "productId": "prod_002",
+        "productName": "Mechanical Keyboard",
+        "quantity": 2,
+        "unitPrice": 79.99
+      },
+      {
+        "productId": "prod_023",
+        "productName": "Laptop Sleeve",
+        "quantity": 1,
+        "unitPrice": 27.5
+      },
+      {
+        "productId": "prod_015",
+        "productName": "Mechanical Numpad",
+        "quantity": 1,
+        "unitPrice": 29.99
+      },
+      {
+        "productId": "prod_022",
+        "productName": "USB Microphone",
+        "quantity": 2,
+        "unitPrice": 69
+      },
+      {
+        "productId": "prod_017",
+        "productName": "Cable Organizer Kit",
+        "quantity": 2,
+        "unitPrice": 12.99
+      }
+    ],
+    "discount": {
+      "code": "VIP20",
+      "amount": 157.98
+    },
+    "subtotal": 789.9,
+    "tax": 63.19,
+    "total": 695.11,
+    "createdAt": "2026-09-12T11:00:00.000Z",
+    "updatedAt": "2026-09-12T15:00:00.000Z"
+  },
+  {
+    "id": "ord_0096",
+    "orderNumber": "ORD-2026-0096",
+    "customerId": "cus_028",
+    "customerName": "Sabrina Begum",
+    "customerEmail": "sabrina.begum@yahoo.com",
+    "status": "delivered",
+    "paymentMethod": "cod",
+    "channel": "mobile",
+    "shippingAddress": {
+      "city": "Narayanganj",
+      "country": "Bangladesh"
+    },
+    "items": [
+      {
+        "productId": "prod_020",
+        "productName": "Router - WiFi 6",
+        "quantity": 3,
+        "unitPrice": 129
+      },
+      {
+        "productId": "prod_008",
+        "productName": "Portable SSD 1TB",
+        "quantity": 1,
+        "unitPrice": 89.99
+      },
+      {
+        "productId": "prod_015",
+        "productName": "Mechanical Numpad",
+        "quantity": 2,
+        "unitPrice": 29.99
+      },
+      {
+        "productId": "prod_010",
+        "productName": "Ergonomic Chair Cushion",
+        "quantity": 2,
+        "unitPrice": 29.99
+      }
+    ],
+    "discount": null,
+    "subtotal": 596.95,
+    "tax": 47.76,
+    "total": 644.71,
+    "createdAt": "2026-09-06T22:15:00.000Z",
+    "updatedAt": "2026-09-07T18:15:00.000Z"
+  },
+  {
+    "id": "ord_0095",
+    "orderNumber": "ORD-2026-0095",
+    "customerId": "cus_018",
+    "customerName": "Mahmud Hasan",
+    "customerEmail": "mahmud.hasan@mail.com",
+    "status": "processing",
+    "paymentMethod": "paypal",
+    "channel": "web",
+    "shippingAddress": {
+      "city": "Dhaka",
+      "country": "Bangladesh"
+    },
+    "items": [
+      {
+        "productId": "prod_009",
+        "productName": "Bluetooth Speaker",
+        "quantity": 3,
+        "unitPrice": 44.99
+      },
+      {
+        "productId": "prod_002",
+        "productName": "Mechanical Keyboard",
+        "quantity": 3,
+        "unitPrice": 79.99
+      },
+      {
+        "productId": "prod_020",
+        "productName": "Router - WiFi 6",
+        "quantity": 3,
+        "unitPrice": 129
+      }
+    ],
+    "discount": null,
+    "subtotal": 761.94,
+    "tax": 60.96,
+    "total": 822.9,
+    "createdAt": "2026-09-06T20:48:00.000Z",
+    "updatedAt": "2026-09-06T21:48:00.000Z"
+  },
+  {
+    "id": "ord_0094",
+    "orderNumber": "ORD-2026-0094",
+    "customerId": "cus_032",
+    "customerName": "Sadia Sultana",
+    "customerEmail": "sadia.sultana@yahoo.com",
+    "status": "delivered",
+    "paymentMethod": "card",
+    "channel": "mobile",
+    "shippingAddress": {
+      "city": "Dhaka",
+      "country": "Bangladesh"
+    },
+    "items": [
+      {
+        "productId": "prod_016",
+        "productName": "Ring Light",
+        "quantity": 1,
+        "unitPrice": 32
+      },
+      {
+        "productId": "prod_022",
+        "productName": "USB Microphone",
+        "quantity": 2,
+        "unitPrice": 69
+      },
+      {
+        "productId": "prod_006",
+        "productName": "Laptop Stand",
+        "quantity": 3,
+        "unitPrice": 39
+      },
+      {
+        "productId": "prod_005",
+        "productName": "Noise Cancelling Headphones",
+        "quantity": 1,
+        "unitPrice": 129.99
+      }
+    ],
+    "discount": null,
+    "subtotal": 416.99,
+    "tax": 33.36,
+    "total": 450.35,
+    "createdAt": "2026-09-05T17:03:00.000Z",
+    "updatedAt": "2026-09-07T22:03:00.000Z"
+  },
+  {
+    "id": "ord_0093",
+    "orderNumber": "ORD-2026-0093",
+    "customerId": "cus_004",
+    "customerName": "Shakib Rahman",
+    "customerEmail": "shakib.rahman@outlook.com",
+    "status": "delivered",
+    "paymentMethod": "card",
+    "channel": "mobile",
+    "shippingAddress": {
+      "city": "Rajshahi",
+      "country": "Bangladesh"
+    },
+    "items": [
+      {
+        "productId": "prod_021",
+        "productName": "Standing Desk Mat",
+        "quantity": 3,
+        "unitPrice": 45
+      }
+    ],
+    "discount": null,
+    "subtotal": 135,
+    "tax": 10.8,
+    "total": 145.8,
+    "createdAt": "2026-09-04T19:02:00.000Z",
+    "updatedAt": "2026-09-05T05:02:00.000Z"
+  },
+  {
+    "id": "ord_0092",
+    "orderNumber": "ORD-2026-0092",
+    "customerId": "cus_012",
+    "customerName": "Kamal Hossain",
+    "customerEmail": "kamal.hossain@outlook.com",
+    "status": "delivered",
+    "paymentMethod": "paypal",
+    "channel": "mobile",
+    "shippingAddress": {
+      "city": "Bogura",
+      "country": "Bangladesh"
+    },
+    "items": [
+      {
+        "productId": "prod_024",
+        "productName": "Travel Adapter",
+        "quantity": 2,
+        "unitPrice": 18
+      },
+      {
+        "productId": "prod_003",
+        "productName": "USB-C Hub",
+        "quantity": 3,
+        "unitPrice": 34.5
+      }
+    ],
+    "discount": null,
+    "subtotal": 139.5,
+    "tax": 11.16,
+    "total": 150.66,
+    "createdAt": "2026-09-03T22:03:00.000Z",
+    "updatedAt": "2026-09-06T13:03:00.000Z"
+  },
+  {
+    "id": "ord_0090",
+    "orderNumber": "ORD-2026-0090",
+    "customerId": "cus_008",
+    "customerName": "Oyshi Khan",
+    "customerEmail": "oyshi.khan@outlook.com",
+    "status": "shipped",
+    "paymentMethod": "card",
+    "channel": "web",
+    "shippingAddress": {
+      "city": "Mymensingh",
+      "country": "Bangladesh"
+    },
+    "items": [
+      {
+        "productId": "prod_015",
+        "productName": "Mechanical Numpad",
+        "quantity": 2,
+        "unitPrice": 29.99
+      },
+      {
+        "productId": "prod_003",
+        "productName": "USB-C Hub",
+        "quantity": 3,
+        "unitPrice": 34.5
+      },
+      {
+        "productId": "prod_001",
+        "productName": "Wireless Mouse",
+        "quantity": 3,
+        "unitPrice": 19.99
+      },
+      {
+        "productId": "prod_022",
+        "productName": "USB Microphone",
+        "quantity": 3,
+        "unitPrice": 69
+      }
+    ],
+    "discount": null,
+    "subtotal": 430.45,
+    "tax": 34.44,
+    "total": 464.89,
+    "createdAt": "2026-09-02T20:51:00.000Z",
+    "updatedAt": "2026-09-05T08:51:00.000Z"
+  },
+  {
+    "id": "ord_0091",
+    "orderNumber": "ORD-2026-0091",
+    "customerId": "cus_031",
+    "customerName": "Rafiq Hossain",
+    "customerEmail": "rafiq.hossain@gmail.com",
+    "status": "delivered",
+    "paymentMethod": "card",
+    "channel": "web",
+    "shippingAddress": {
+      "city": "Jashore",
+      "country": "Bangladesh"
+    },
+    "items": [
+      {
+        "productId": "prod_014",
+        "productName": "Graphics Tablet",
+        "quantity": 1,
+        "unitPrice": 199
+      }
+    ],
+    "discount": {
+      "code": "WELCOME10",
+      "amount": 19.9
+    },
+    "subtotal": 199,
+    "tax": 14.33,
+    "total": 193.43,
+    "createdAt": "2026-09-02T11:57:00.000Z",
+    "updatedAt": "2026-09-03T14:57:00.000Z"
+  },
+  {
+    "id": "ord_0089",
+    "orderNumber": "ORD-2026-0089",
+    "customerId": "cus_020",
+    "customerName": "Chaity Islam",
+    "customerEmail": "chaity.islam@gmail.com",
+    "status": "delivered",
+    "paymentMethod": "paypal",
+    "channel": "web",
+    "shippingAddress": {
+      "city": "Sylhet",
+      "country": "Bangladesh"
+    },
+    "items": [
+      {
+        "productId": "prod_014",
+        "productName": "Graphics Tablet",
+        "quantity": 3,
+        "unitPrice": 199
+      }
+    ],
+    "discount": null,
+    "subtotal": 597,
+    "tax": 47.76,
+    "total": 644.76,
+    "createdAt": "2026-09-01T10:26:00.000Z",
+    "updatedAt": "2026-09-01T16:26:00.000Z"
+  },
+  {
+    "id": "ord_0088",
+    "orderNumber": "ORD-2026-0088",
+    "customerId": "cus_006",
+    "customerName": "Ehsan Ahmed",
+    "customerEmail": "ehsan.ahmed@outlook.com",
+    "status": "processing",
+    "paymentMethod": "bank_transfer",
+    "channel": "web",
+    "shippingAddress": {
+      "city": "Barishal",
+      "country": "Bangladesh"
+    },
+    "items": [
+      {
+        "productId": "prod_021",
+        "productName": "Standing Desk Mat",
+        "quantity": 1,
+        "unitPrice": 45
+      },
+      {
+        "productId": "prod_006",
+        "productName": "Laptop Stand",
+        "quantity": 1,
+        "unitPrice": 39
+      },
+      {
+        "productId": "prod_004",
+        "productName": "27\" Monitor",
+        "quantity": 2,
+        "unitPrice": 249
+      },
+      {
+        "productId": "prod_022",
+        "productName": "USB Microphone",
+        "quantity": 1,
+        "unitPrice": 69
+      }
+    ],
+    "discount": null,
+    "subtotal": 651,
+    "tax": 52.08,
+    "total": 703.08,
+    "createdAt": "2026-08-31T11:02:00.000Z",
+    "updatedAt": "2026-08-31T12:02:00.000Z"
+  },
+  {
+    "id": "ord_0087",
+    "orderNumber": "ORD-2026-0087",
+    "customerId": "cus_013",
+    "customerName": "Shakib Ahmed",
+    "customerEmail": "shakib.ahmed@yahoo.com",
+    "status": "shipped",
+    "paymentMethod": "paypal",
+    "channel": "mobile",
+    "shippingAddress": {
+      "city": "Cox's Bazar",
+      "country": "Bangladesh"
+    },
+    "items": [
+      {
+        "productId": "prod_017",
+        "productName": "Cable Organizer Kit",
+        "quantity": 3,
+        "unitPrice": 12.99
+      }
+    ],
+    "discount": null,
+    "subtotal": 38.97,
+    "tax": 3.12,
+    "total": 42.09,
+    "createdAt": "2026-08-30T21:58:00.000Z",
+    "updatedAt": "2026-08-31T15:58:00.000Z"
+  },
+  {
+    "id": "ord_0086",
+    "orderNumber": "ORD-2026-0086",
+    "customerId": "cus_022",
+    "customerName": "Nadia Begum",
+    "customerEmail": "nadia.begum@outlook.com",
+    "status": "pending",
+    "paymentMethod": "card",
+    "channel": "web",
+    "shippingAddress": {
+      "city": "Khulna",
+      "country": "Bangladesh"
+    },
+    "items": [
+      {
+        "productId": "prod_019",
+        "productName": "Action Camera",
+        "quantity": 1,
+        "unitPrice": 179
+      },
+      {
+        "productId": "prod_021",
+        "productName": "Standing Desk Mat",
+        "quantity": 1,
+        "unitPrice": 45
+      }
+    ],
+    "discount": null,
+    "subtotal": 224,
+    "tax": 17.92,
+    "total": 241.92,
+    "createdAt": "2026-08-29T11:20:00.000Z",
+    "updatedAt": "2026-09-01T09:20:00.000Z"
+  },
+  {
+    "id": "ord_0085",
+    "orderNumber": "ORD-2026-0085",
+    "customerId": "cus_017",
+    "customerName": "Sadia Sarker",
+    "customerEmail": "sadia.sarker@yahoo.com",
+    "status": "cancelled",
+    "paymentMethod": "paypal",
+    "channel": "mobile",
+    "shippingAddress": {
+      "city": "Dinajpur",
+      "country": "Bangladesh"
+    },
+    "items": [
+      {
+        "productId": "prod_012",
+        "productName": "Phone Case",
+        "quantity": 2,
+        "unitPrice": 14.99
+      },
+      {
+        "productId": "prod_016",
+        "productName": "Ring Light",
+        "quantity": 3,
+        "unitPrice": 32
+      },
+      {
+        "productId": "prod_013",
+        "productName": "Desk Lamp",
+        "quantity": 2,
+        "unitPrice": 24.5
+      }
+    ],
+    "discount": null,
+    "subtotal": 174.98,
+    "tax": 14,
+    "total": 188.98,
+    "createdAt": "2026-08-28T16:03:00.000Z",
+    "updatedAt": "2026-08-30T12:03:00.000Z"
+  },
+  {
+    "id": "ord_0084",
+    "orderNumber": "ORD-2026-0084",
+    "customerId": "cus_022",
+    "customerName": "Nadia Begum",
+    "customerEmail": "nadia.begum@outlook.com",
+    "status": "shipped",
+    "paymentMethod": "paypal",
+    "channel": "api",
+    "shippingAddress": {
+      "city": "Khulna",
+      "country": "Bangladesh"
+    },
+    "items": [
+      {
+        "productId": "prod_005",
+        "productName": "Noise Cancelling Headphones",
+        "quantity": 2,
+        "unitPrice": 129.99
+      },
+      {
+        "productId": "prod_002",
+        "productName": "Mechanical Keyboard",
+        "quantity": 3,
+        "unitPrice": 79.99
+      },
+      {
+        "productId": "prod_007",
+        "productName": "Webcam 1080p",
+        "quantity": 1,
+        "unitPrice": 54.99
+      },
+      {
+        "productId": "prod_023",
+        "productName": "Laptop Sleeve",
+        "quantity": 2,
+        "unitPrice": 27.5
+      }
+    ],
+    "discount": {
+      "code": "VIP20",
+      "amount": 121.99
+    },
+    "subtotal": 609.94,
+    "tax": 39.04,
+    "total": 526.99,
+    "createdAt": "2026-08-27T20:06:00.000Z",
+    "updatedAt": "2026-08-30T08:06:00.000Z"
+  },
+  {
+    "id": "ord_0083",
+    "orderNumber": "ORD-2026-0083",
+    "customerId": "cus_037",
+    "customerName": "Nadia Rahman",
+    "customerEmail": "nadia.rahman@mail.com",
+    "status": "delivered",
+    "paymentMethod": "card",
+    "channel": "mobile",
+    "shippingAddress": {
+      "city": "Khulna",
+      "country": "Bangladesh"
+    },
+    "items": [
+      {
+        "productId": "prod_012",
+        "productName": "Phone Case",
+        "quantity": 1,
+        "unitPrice": 14.99
+      },
+      {
+        "productId": "prod_014",
+        "productName": "Graphics Tablet",
+        "quantity": 3,
+        "unitPrice": 199
+      },
+      {
+        "productId": "prod_022",
+        "productName": "USB Microphone",
+        "quantity": 2,
+        "unitPrice": 69
+      },
+      {
+        "productId": "prod_003",
+        "productName": "USB-C Hub",
+        "quantity": 3,
+        "unitPrice": 34.5
+      }
+    ],
+    "discount": null,
+    "subtotal": 853.49,
+    "tax": 68.28,
+    "total": 921.77,
+    "createdAt": "2026-08-27T15:42:00.000Z",
+    "updatedAt": "2026-08-27T17:42:00.000Z"
+  },
+  {
+    "id": "ord_0082",
+    "orderNumber": "ORD-2026-0082",
+    "customerId": "cus_009",
+    "customerName": "Nusrat Ahmed",
+    "customerEmail": "nusrat.ahmed@gmail.com",
+    "status": "processing",
+    "paymentMethod": "bank_transfer",
+    "channel": "web",
+    "shippingAddress": {
+      "city": "Cumilla",
+      "country": "Bangladesh"
+    },
+    "items": [
+      {
+        "productId": "prod_015",
+        "productName": "Mechanical Numpad",
+        "quantity": 1,
+        "unitPrice": 29.99
+      },
+      {
+        "productId": "prod_005",
+        "productName": "Noise Cancelling Headphones",
+        "quantity": 2,
+        "unitPrice": 129.99
+      },
+      {
+        "productId": "prod_023",
+        "productName": "Laptop Sleeve",
+        "quantity": 1,
+        "unitPrice": 27.5
+      },
+      {
+        "productId": "prod_016",
+        "productName": "Ring Light",
+        "quantity": 3,
+        "unitPrice": 32
+      }
+    ],
+    "discount": null,
+    "subtotal": 413.47,
+    "tax": 33.08,
+    "total": 446.55,
+    "createdAt": "2026-08-26T15:31:00.000Z",
+    "updatedAt": "2026-08-26T15:31:00.000Z"
+  },
+  {
+    "id": "ord_0081",
+    "orderNumber": "ORD-2026-0081",
+    "customerId": "cus_039",
+    "customerName": "Nusrat Chowdhury",
+    "customerEmail": "nusrat.chowdhury@gmail.com",
+    "status": "processing",
+    "paymentMethod": "bank_transfer",
+    "channel": "web",
+    "shippingAddress": {
+      "city": "Rangpur",
+      "country": "Bangladesh"
+    },
+    "items": [
+      {
+        "productId": "prod_007",
+        "productName": "Webcam 1080p",
+        "quantity": 1,
+        "unitPrice": 54.99
+      },
+      {
+        "productId": "prod_016",
+        "productName": "Ring Light",
+        "quantity": 3,
+        "unitPrice": 32
+      },
+      {
+        "productId": "prod_023",
+        "productName": "Laptop Sleeve",
+        "quantity": 1,
+        "unitPrice": 27.5
+      }
+    ],
+    "discount": null,
+    "subtotal": 178.49,
+    "tax": 14.28,
+    "total": 192.77,
+    "createdAt": "2026-08-25T20:05:00.000Z",
+    "updatedAt": "2026-08-28T04:05:00.000Z"
+  },
+  {
+    "id": "ord_0080",
+    "orderNumber": "ORD-2026-0080",
+    "customerId": "cus_019",
+    "customerName": "Delwar Hossain",
+    "customerEmail": "delwar.hossain@yahoo.com",
+    "status": "delivered",
+    "paymentMethod": "bank_transfer",
+    "channel": "web",
+    "shippingAddress": {
+      "city": "Chattogram",
+      "country": "Bangladesh"
+    },
+    "items": [
+      {
+        "productId": "prod_008",
+        "productName": "Portable SSD 1TB",
+        "quantity": 2,
+        "unitPrice": 89.99
+      },
+      {
+        "productId": "prod_006",
+        "productName": "Laptop Stand",
+        "quantity": 2,
+        "unitPrice": 39
+      }
+    ],
+    "discount": null,
+    "subtotal": 257.98,
+    "tax": 20.64,
+    "total": 278.62,
+    "createdAt": "2026-08-24T12:38:00.000Z",
+    "updatedAt": "2026-08-25T14:38:00.000Z"
+  },
+  {
+    "id": "ord_0079",
+    "orderNumber": "ORD-2026-0079",
+    "customerId": "cus_006",
+    "customerName": "Ehsan Ahmed",
+    "customerEmail": "ehsan.ahmed@outlook.com",
+    "status": "delivered",
+    "paymentMethod": "paypal",
+    "channel": "mobile",
+    "shippingAddress": {
+      "city": "Barishal",
+      "country": "Bangladesh"
+    },
+    "items": [
+      {
+        "productId": "prod_013",
+        "productName": "Desk Lamp",
+        "quantity": 3,
+        "unitPrice": 24.5
+      },
+      {
+        "productId": "prod_002",
+        "productName": "Mechanical Keyboard",
+        "quantity": 2,
+        "unitPrice": 79.99
+      },
+      {
+        "productId": "prod_003",
+        "productName": "USB-C Hub",
+        "quantity": 1,
+        "unitPrice": 34.5
+      }
+    ],
+    "discount": null,
+    "subtotal": 267.98,
+    "tax": 21.44,
+    "total": 289.42,
+    "createdAt": "2026-08-23T18:57:00.000Z",
+    "updatedAt": "2026-08-25T14:57:00.000Z"
+  },
+  {
+    "id": "ord_0078",
+    "orderNumber": "ORD-2026-0078",
+    "customerId": "cus_015",
+    "customerName": "Nabila Chowdhury",
+    "customerEmail": "nabila.chowdhury@mail.com",
+    "status": "delivered",
+    "paymentMethod": "paypal",
+    "channel": "web",
+    "shippingAddress": {
+      "city": "Tangail",
+      "country": "Bangladesh"
+    },
+    "items": [
+      {
+        "productId": "prod_014",
+        "productName": "Graphics Tablet",
+        "quantity": 2,
+        "unitPrice": 199
+      },
+      {
+        "productId": "prod_022",
+        "productName": "USB Microphone",
+        "quantity": 1,
+        "unitPrice": 69
+      },
+      {
+        "productId": "prod_006",
+        "productName": "Laptop Stand",
+        "quantity": 3,
+        "unitPrice": 39
+      }
+    ],
+    "discount": null,
+    "subtotal": 584,
+    "tax": 46.72,
+    "total": 630.72,
+    "createdAt": "2026-08-21T12:45:00.000Z",
+    "updatedAt": "2026-08-23T09:45:00.000Z"
+  },
+  {
+    "id": "ord_0077",
+    "orderNumber": "ORD-2026-0077",
+    "customerId": "cus_005",
+    "customerName": "Mizanur Chowdhury",
+    "customerEmail": "mizanur.chowdhury@gmail.com",
+    "status": "processing",
+    "paymentMethod": "cod",
+    "channel": "mobile",
+    "shippingAddress": {
+      "city": "Khulna",
+      "country": "Bangladesh"
+    },
+    "items": [
+      {
+        "productId": "prod_021",
+        "productName": "Standing Desk Mat",
+        "quantity": 1,
+        "unitPrice": 45
+      },
+      {
+        "productId": "prod_018",
+        "productName": "Wireless Charger Pad",
+        "quantity": 2,
+        "unitPrice": 22.99
+      },
+      {
+        "productId": "prod_024",
+        "productName": "Travel Adapter",
+        "quantity": 3,
+        "unitPrice": 18
+      },
+      {
+        "productId": "prod_008",
+        "productName": "Portable SSD 1TB",
+        "quantity": 3,
+        "unitPrice": 89.99
+      }
+    ],
+    "discount": null,
+    "subtotal": 414.95,
+    "tax": 33.2,
+    "total": 448.15,
+    "createdAt": "2026-08-17T20:51:00.000Z",
+    "updatedAt": "2026-08-20T00:51:00.000Z"
+  },
+  {
+    "id": "ord_0076",
+    "orderNumber": "ORD-2026-0076",
+    "customerId": "cus_027",
+    "customerName": "Sumaiya Hossain",
+    "customerEmail": "sumaiya.hossain@yahoo.com",
+    "status": "processing",
+    "paymentMethod": "card",
+    "channel": "web",
+    "shippingAddress": {
+      "city": "Gazipur",
+      "country": "Bangladesh"
+    },
+    "items": [
+      {
+        "productId": "prod_004",
+        "productName": "27\" Monitor",
+        "quantity": 3,
+        "unitPrice": 249
+      },
+      {
+        "productId": "prod_008",
+        "productName": "Portable SSD 1TB",
+        "quantity": 2,
+        "unitPrice": 89.99
+      },
+      {
+        "productId": "prod_010",
+        "productName": "Ergonomic Chair Cushion",
+        "quantity": 3,
+        "unitPrice": 29.99
+      }
+    ],
+    "discount": null,
+    "subtotal": 1016.95,
+    "tax": 81.36,
+    "total": 1098.31,
+    "createdAt": "2026-08-16T18:44:00.000Z",
+    "updatedAt": "2026-08-18T20:44:00.000Z"
+  },
+  {
+    "id": "ord_0075",
+    "orderNumber": "ORD-2026-0075",
+    "customerId": "cus_024",
+    "customerName": "Jahid Hasan",
+    "customerEmail": "jahid.hasan@outlook.com",
+    "status": "shipped",
+    "paymentMethod": "card",
+    "channel": "web",
+    "shippingAddress": {
+      "city": "Rangpur",
+      "country": "Bangladesh"
+    },
+    "items": [
+      {
+        "productId": "prod_007",
+        "productName": "Webcam 1080p",
+        "quantity": 3,
+        "unitPrice": 54.99
+      },
+      {
+        "productId": "prod_022",
+        "productName": "USB Microphone",
+        "quantity": 1,
+        "unitPrice": 69
+      },
+      {
+        "productId": "prod_006",
+        "productName": "Laptop Stand",
+        "quantity": 3,
+        "unitPrice": 39
+      },
+      {
+        "productId": "prod_013",
+        "productName": "Desk Lamp",
+        "quantity": 3,
+        "unitPrice": 24.5
+      }
+    ],
+    "discount": null,
+    "subtotal": 424.47,
+    "tax": 33.96,
+    "total": 458.43,
+    "createdAt": "2026-08-15T16:21:00.000Z",
+    "updatedAt": "2026-08-15T23:21:00.000Z"
+  },
+  {
+    "id": "ord_0074",
+    "orderNumber": "ORD-2026-0074",
+    "customerId": "cus_035",
+    "customerName": "Aminul Mia",
+    "customerEmail": "aminul.mia@outlook.com",
+    "status": "pending",
+    "paymentMethod": "card",
+    "channel": "web",
+    "shippingAddress": {
+      "city": "Dhaka",
+      "country": "Bangladesh"
+    },
+    "items": [
+      {
+        "productId": "prod_017",
+        "productName": "Cable Organizer Kit",
+        "quantity": 1,
+        "unitPrice": 12.99
+      },
+      {
+        "productId": "prod_012",
+        "productName": "Phone Case",
+        "quantity": 3,
+        "unitPrice": 14.99
+      }
+    ],
+    "discount": null,
+    "subtotal": 57.96,
+    "tax": 4.64,
+    "total": 62.6,
+    "createdAt": "2026-08-14T11:10:00.000Z",
+    "updatedAt": "2026-08-15T13:10:00.000Z"
+  },
+  {
+    "id": "ord_0073",
+    "orderNumber": "ORD-2026-0073",
+    "customerId": "cus_027",
+    "customerName": "Sumaiya Hossain",
+    "customerEmail": "sumaiya.hossain@yahoo.com",
+    "status": "shipped",
+    "paymentMethod": "card",
+    "channel": "web",
+    "shippingAddress": {
+      "city": "Gazipur",
+      "country": "Bangladesh"
+    },
+    "items": [
+      {
+        "productId": "prod_009",
+        "productName": "Bluetooth Speaker",
+        "quantity": 2,
+        "unitPrice": 44.99
+      },
+      {
+        "productId": "prod_014",
+        "productName": "Graphics Tablet",
+        "quantity": 2,
+        "unitPrice": 199
+      }
+    ],
+    "discount": {
+      "code": "FLASH25",
+      "amount": 73.2
+    },
+    "subtotal": 487.98,
+    "tax": 33.18,
+    "total": 447.96,
+    "createdAt": "2026-08-13T11:50:00.000Z",
+    "updatedAt": "2026-08-15T04:50:00.000Z"
+  },
+  {
+    "id": "ord_0071",
+    "orderNumber": "ORD-2026-0071",
+    "customerId": "cus_028",
+    "customerName": "Sabrina Begum",
+    "customerEmail": "sabrina.begum@yahoo.com",
+    "status": "shipped",
+    "paymentMethod": "paypal",
+    "channel": "web",
+    "shippingAddress": {
+      "city": "Narayanganj",
+      "country": "Bangladesh"
+    },
+    "items": [
+      {
+        "productId": "prod_015",
+        "productName": "Mechanical Numpad",
+        "quantity": 2,
+        "unitPrice": 29.99
+      },
+      {
+        "productId": "prod_001",
+        "productName": "Wireless Mouse",
+        "quantity": 3,
+        "unitPrice": 19.99
+      },
+      {
+        "productId": "prod_005",
+        "productName": "Noise Cancelling Headphones",
+        "quantity": 3,
+        "unitPrice": 129.99
+      }
+    ],
+    "discount": null,
+    "subtotal": 509.92,
+    "tax": 40.79,
+    "total": 550.71,
+    "createdAt": "2026-08-12T19:14:00.000Z",
+    "updatedAt": "2026-08-14T02:14:00.000Z"
+  },
+  {
+    "id": "ord_0072",
+    "orderNumber": "ORD-2026-0072",
+    "customerId": "cus_042",
+    "customerName": "Rupa Chowdhury",
+    "customerEmail": "rupa.chowdhury@outlook.com",
+    "status": "delivered",
+    "paymentMethod": "paypal",
+    "channel": "web",
+    "shippingAddress": {
+      "city": "Sylhet",
+      "country": "Bangladesh"
+    },
+    "items": [
+      {
+        "productId": "prod_022",
+        "productName": "USB Microphone",
+        "quantity": 3,
+        "unitPrice": 69
+      },
+      {
+        "productId": "prod_006",
+        "productName": "Laptop Stand",
+        "quantity": 1,
+        "unitPrice": 39
+      }
+    ],
+    "discount": null,
+    "subtotal": 246,
+    "tax": 19.68,
+    "total": 265.68,
+    "createdAt": "2026-08-12T14:54:00.000Z",
+    "updatedAt": "2026-08-14T06:54:00.000Z"
+  },
+  {
+    "id": "ord_0070",
+    "orderNumber": "ORD-2026-0070",
+    "customerId": "cus_007",
+    "customerName": "Dewan Tariq",
+    "customerEmail": "dewan.tariq@gmail.com",
+    "status": "delivered",
+    "paymentMethod": "bank_transfer",
+    "channel": "web",
+    "shippingAddress": {
+      "city": "Rangpur",
+      "country": "Bangladesh"
+    },
+    "items": [
+      {
+        "productId": "prod_005",
+        "productName": "Noise Cancelling Headphones",
+        "quantity": 2,
+        "unitPrice": 129.99
+      },
+      {
+        "productId": "prod_010",
+        "productName": "Ergonomic Chair Cushion",
+        "quantity": 1,
+        "unitPrice": 29.99
+      },
+      {
+        "productId": "prod_024",
+        "productName": "Travel Adapter",
+        "quantity": 1,
+        "unitPrice": 18
+      },
+      {
+        "productId": "prod_014",
+        "productName": "Graphics Tablet",
+        "quantity": 3,
+        "unitPrice": 199
+      }
+    ],
+    "discount": null,
+    "subtotal": 904.97,
+    "tax": 72.4,
+    "total": 977.37,
+    "createdAt": "2026-08-11T10:42:00.000Z",
+    "updatedAt": "2026-08-12T21:42:00.000Z"
+  },
+  {
+    "id": "ord_0069",
+    "orderNumber": "ORD-2026-0069",
+    "customerId": "cus_040",
+    "customerName": "Danial Haque",
+    "customerEmail": "danial.haque@yahoo.com",
+    "status": "delivered",
+    "paymentMethod": "cod",
+    "channel": "web",
+    "shippingAddress": {
+      "city": "Dhaka",
+      "country": "Bangladesh"
+    },
+    "items": [
+      {
+        "productId": "prod_024",
+        "productName": "Travel Adapter",
+        "quantity": 3,
+        "unitPrice": 18
+      },
+      {
+        "productId": "prod_011",
+        "productName": "Smartwatch",
+        "quantity": 3,
+        "unitPrice": 159
+      }
+    ],
+    "discount": null,
+    "subtotal": 531,
+    "tax": 42.48,
+    "total": 573.48,
+    "createdAt": "2026-08-10T10:46:00.000Z",
+    "updatedAt": "2026-08-11T16:46:00.000Z"
+  },
+  {
+    "id": "ord_0068",
+    "orderNumber": "ORD-2026-0068",
+    "customerId": "cus_029",
+    "customerName": "Orin Hossain",
+    "customerEmail": "orin.hossain@outlook.com",
+    "status": "pending",
+    "paymentMethod": "paypal",
+    "channel": "mobile",
+    "shippingAddress": {
+      "city": "Bogura",
+      "country": "Bangladesh"
+    },
+    "items": [
+      {
+        "productId": "prod_015",
+        "productName": "Mechanical Numpad",
+        "quantity": 2,
+        "unitPrice": 29.99
+      },
+      {
+        "productId": "prod_023",
+        "productName": "Laptop Sleeve",
+        "quantity": 3,
+        "unitPrice": 27.5
+      }
+    ],
+    "discount": null,
+    "subtotal": 142.48,
+    "tax": 11.4,
+    "total": 153.88,
+    "createdAt": "2026-08-09T18:35:00.000Z",
+    "updatedAt": "2026-08-11T12:35:00.000Z"
+  },
+  {
+    "id": "ord_0067",
+    "orderNumber": "ORD-2026-0067",
+    "customerId": "cus_035",
+    "customerName": "Aminul Mia",
+    "customerEmail": "aminul.mia@outlook.com",
+    "status": "delivered",
+    "paymentMethod": "paypal",
+    "channel": "web",
+    "shippingAddress": {
+      "city": "Dhaka",
+      "country": "Bangladesh"
+    },
+    "items": [
+      {
+        "productId": "prod_015",
+        "productName": "Mechanical Numpad",
+        "quantity": 3,
+        "unitPrice": 29.99
+      },
+      {
+        "productId": "prod_005",
+        "productName": "Noise Cancelling Headphones",
+        "quantity": 3,
+        "unitPrice": 129.99
+      }
+    ],
+    "discount": null,
+    "subtotal": 479.94,
+    "tax": 38.4,
+    "total": 518.34,
+    "createdAt": "2026-08-08T16:10:00.000Z",
+    "updatedAt": "2026-08-08T20:10:00.000Z"
+  },
+  {
+    "id": "ord_0066",
+    "orderNumber": "ORD-2026-0066",
+    "customerId": "cus_011",
+    "customerName": "Jahidul Islam",
+    "customerEmail": "jahidul.islam@yahoo.com",
+    "status": "pending",
+    "paymentMethod": "bank_transfer",
+    "channel": "web",
+    "shippingAddress": {
+      "city": "Narayanganj",
+      "country": "Bangladesh"
+    },
+    "items": [
+      {
+        "productId": "prod_023",
+        "productName": "Laptop Sleeve",
+        "quantity": 2,
+        "unitPrice": 27.5
+      },
+      {
+        "productId": "prod_018",
+        "productName": "Wireless Charger Pad",
+        "quantity": 2,
+        "unitPrice": 22.99
+      },
+      {
+        "productId": "prod_004",
+        "productName": "27\" Monitor",
+        "quantity": 1,
+        "unitPrice": 249
+      },
+      {
+        "productId": "prod_021",
+        "productName": "Standing Desk Mat",
+        "quantity": 2,
+        "unitPrice": 45
+      }
+    ],
+    "discount": null,
+    "subtotal": 439.98,
+    "tax": 35.2,
+    "total": 475.18,
+    "createdAt": "2026-08-07T09:40:00.000Z",
+    "updatedAt": "2026-08-07T20:40:00.000Z"
+  },
+  {
+    "id": "ord_0064",
+    "orderNumber": "ORD-2026-0064",
+    "customerId": "cus_028",
+    "customerName": "Sabrina Begum",
+    "customerEmail": "sabrina.begum@yahoo.com",
+    "status": "delivered",
+    "paymentMethod": "card",
+    "channel": "web",
+    "shippingAddress": {
+      "city": "Narayanganj",
+      "country": "Bangladesh"
+    },
+    "items": [
+      {
+        "productId": "prod_023",
+        "productName": "Laptop Sleeve",
+        "quantity": 1,
+        "unitPrice": 27.5
+      },
+      {
+        "productId": "prod_002",
+        "productName": "Mechanical Keyboard",
+        "quantity": 3,
+        "unitPrice": 79.99
+      },
+      {
+        "productId": "prod_018",
+        "productName": "Wireless Charger Pad",
+        "quantity": 1,
+        "unitPrice": 22.99
+      },
+      {
+        "productId": "prod_019",
+        "productName": "Action Camera",
+        "quantity": 3,
+        "unitPrice": 179
+      }
+    ],
+    "discount": null,
+    "subtotal": 827.46,
+    "tax": 66.2,
+    "total": 893.66,
+    "createdAt": "2026-08-06T16:49:00.000Z",
+    "updatedAt": "2026-08-07T13:49:00.000Z"
+  },
+  {
+    "id": "ord_0065",
+    "orderNumber": "ORD-2026-0065",
+    "customerId": "cus_004",
+    "customerName": "Shakib Rahman",
+    "customerEmail": "shakib.rahman@outlook.com",
+    "status": "shipped",
+    "paymentMethod": "cod",
+    "channel": "web",
+    "shippingAddress": {
+      "city": "Rajshahi",
+      "country": "Bangladesh"
+    },
+    "items": [
+      {
+        "productId": "prod_023",
+        "productName": "Laptop Sleeve",
+        "quantity": 2,
+        "unitPrice": 27.5
+      },
+      {
+        "productId": "prod_006",
+        "productName": "Laptop Stand",
+        "quantity": 3,
+        "unitPrice": 39
+      },
+      {
+        "productId": "prod_016",
+        "productName": "Ring Light",
+        "quantity": 2,
+        "unitPrice": 32
+      },
+      {
+        "productId": "prod_019",
+        "productName": "Action Camera",
+        "quantity": 3,
+        "unitPrice": 179
+      }
+    ],
+    "discount": null,
+    "subtotal": 773,
+    "tax": 61.84,
+    "total": 834.84,
+    "createdAt": "2026-08-06T08:22:00.000Z",
+    "updatedAt": "2026-08-07T20:22:00.000Z"
+  },
+  {
+    "id": "ord_0063",
+    "orderNumber": "ORD-2026-0063",
+    "customerId": "cus_042",
+    "customerName": "Rupa Chowdhury",
+    "customerEmail": "rupa.chowdhury@outlook.com",
+    "status": "delivered",
+    "paymentMethod": "bank_transfer",
+    "channel": "mobile",
+    "shippingAddress": {
+      "city": "Sylhet",
+      "country": "Bangladesh"
+    },
+    "items": [
+      {
+        "productId": "prod_009",
+        "productName": "Bluetooth Speaker",
+        "quantity": 1,
+        "unitPrice": 44.99
+      },
+      {
+        "productId": "prod_001",
+        "productName": "Wireless Mouse",
+        "quantity": 3,
+        "unitPrice": 19.99
+      },
+      {
+        "productId": "prod_012",
+        "productName": "Phone Case",
+        "quantity": 2,
+        "unitPrice": 14.99
+      },
+      {
+        "productId": "prod_010",
+        "productName": "Ergonomic Chair Cushion",
+        "quantity": 2,
+        "unitPrice": 29.99
+      }
+    ],
+    "discount": null,
+    "subtotal": 194.92,
+    "tax": 15.59,
+    "total": 210.51,
+    "createdAt": "2026-08-05T11:18:00.000Z",
+    "updatedAt": "2026-08-08T03:18:00.000Z"
+  },
+  {
+    "id": "ord_0062",
+    "orderNumber": "ORD-2026-0062",
+    "customerId": "cus_035",
+    "customerName": "Aminul Mia",
+    "customerEmail": "aminul.mia@outlook.com",
+    "status": "delivered",
+    "paymentMethod": "card",
+    "channel": "mobile",
+    "shippingAddress": {
+      "city": "Dhaka",
+      "country": "Bangladesh"
+    },
+    "items": [
+      {
+        "productId": "prod_004",
+        "productName": "27\" Monitor",
+        "quantity": 1,
+        "unitPrice": 249
+      },
+      {
+        "productId": "prod_008",
+        "productName": "Portable SSD 1TB",
+        "quantity": 3,
+        "unitPrice": 89.99
+      },
+      {
+        "productId": "prod_007",
+        "productName": "Webcam 1080p",
+        "quantity": 1,
+        "unitPrice": 54.99
+      },
+      {
+        "productId": "prod_002",
+        "productName": "Mechanical Keyboard",
+        "quantity": 3,
+        "unitPrice": 79.99
+      }
+    ],
+    "discount": null,
+    "subtotal": 813.93,
+    "tax": 65.11,
+    "total": 879.04,
+    "createdAt": "2026-08-04T22:42:00.000Z",
+    "updatedAt": "2026-08-07T11:42:00.000Z"
+  },
+  {
+    "id": "ord_0061",
+    "orderNumber": "ORD-2026-0061",
+    "customerId": "cus_003",
+    "customerName": "Imran Akter",
+    "customerEmail": "imran.akter@mail.com",
+    "status": "delivered",
+    "paymentMethod": "card",
+    "channel": "mobile",
+    "shippingAddress": {
+      "city": "Sylhet",
+      "country": "Bangladesh"
+    },
+    "items": [
+      {
+        "productId": "prod_012",
+        "productName": "Phone Case",
+        "quantity": 3,
+        "unitPrice": 14.99
+      },
+      {
+        "productId": "prod_005",
+        "productName": "Noise Cancelling Headphones",
+        "quantity": 1,
+        "unitPrice": 129.99
+      }
+    ],
+    "discount": {
+      "code": "SAVE15",
+      "amount": 17.5
+    },
+    "subtotal": 174.96,
+    "tax": 12.6,
+    "total": 170.06,
+    "createdAt": "2026-08-03T08:07:00.000Z",
+    "updatedAt": "2026-08-03T16:07:00.000Z"
+  },
+  {
+    "id": "ord_0060",
+    "orderNumber": "ORD-2026-0060",
+    "customerId": "cus_016",
+    "customerName": "Sabrina Ahmed",
+    "customerEmail": "sabrina.ahmed@yahoo.com",
+    "status": "cancelled",
+    "paymentMethod": "card",
+    "channel": "web",
+    "shippingAddress": {
+      "city": "Pabna",
+      "country": "Bangladesh"
+    },
+    "items": [
+      {
+        "productId": "prod_016",
+        "productName": "Ring Light",
+        "quantity": 1,
+        "unitPrice": 32
+      },
+      {
+        "productId": "prod_017",
+        "productName": "Cable Organizer Kit",
+        "quantity": 2,
+        "unitPrice": 12.99
+      },
+      {
+        "productId": "prod_023",
+        "productName": "Laptop Sleeve",
+        "quantity": 3,
+        "unitPrice": 27.5
+      },
+      {
+        "productId": "prod_001",
+        "productName": "Wireless Mouse",
+        "quantity": 1,
+        "unitPrice": 19.99
+      }
+    ],
+    "discount": null,
+    "subtotal": 160.47,
+    "tax": 12.84,
+    "total": 173.31,
+    "createdAt": "2026-07-31T14:58:00.000Z",
+    "updatedAt": "2026-08-02T05:58:00.000Z"
+  },
+  {
+    "id": "ord_0059",
+    "orderNumber": "ORD-2026-0059",
+    "customerId": "cus_017",
+    "customerName": "Sadia Sarker",
+    "customerEmail": "sadia.sarker@yahoo.com",
+    "status": "delivered",
+    "paymentMethod": "paypal",
+    "channel": "web",
+    "shippingAddress": {
+      "city": "Dinajpur",
+      "country": "Bangladesh"
+    },
+    "items": [
+      {
+        "productId": "prod_022",
+        "productName": "USB Microphone",
+        "quantity": 3,
+        "unitPrice": 69
+      },
+      {
+        "productId": "prod_017",
+        "productName": "Cable Organizer Kit",
+        "quantity": 1,
+        "unitPrice": 12.99
+      },
+      {
+        "productId": "prod_009",
+        "productName": "Bluetooth Speaker",
+        "quantity": 1,
+        "unitPrice": 44.99
+      },
+      {
+        "productId": "prod_010",
+        "productName": "Ergonomic Chair Cushion",
+        "quantity": 3,
+        "unitPrice": 29.99
+      }
+    ],
+    "discount": {
+      "code": "VIP20",
+      "amount": 53.24
+    },
+    "subtotal": 354.95,
+    "tax": 24.14,
+    "total": 325.85,
+    "createdAt": "2026-07-30T19:03:00.000Z",
+    "updatedAt": "2026-07-31T20:03:00.000Z"
+  },
+  {
+    "id": "ord_0058",
+    "orderNumber": "ORD-2026-0058",
+    "customerId": "cus_031",
+    "customerName": "Rafiq Hossain",
+    "customerEmail": "rafiq.hossain@gmail.com",
+    "status": "delivered",
+    "paymentMethod": "card",
+    "channel": "mobile",
+    "shippingAddress": {
+      "city": "Jashore",
+      "country": "Bangladesh"
+    },
+    "items": [
+      {
+        "productId": "prod_024",
+        "productName": "Travel Adapter",
+        "quantity": 2,
+        "unitPrice": 18
+      },
+      {
+        "productId": "prod_015",
+        "productName": "Mechanical Numpad",
+        "quantity": 1,
+        "unitPrice": 29.99
+      },
+      {
+        "productId": "prod_003",
+        "productName": "USB-C Hub",
+        "quantity": 1,
+        "unitPrice": 34.5
+      },
+      {
+        "productId": "prod_021",
+        "productName": "Standing Desk Mat",
+        "quantity": 1,
+        "unitPrice": 45
+      }
+    ],
+    "discount": null,
+    "subtotal": 145.49,
+    "tax": 11.64,
+    "total": 157.13,
+    "createdAt": "2026-07-29T19:34:00.000Z",
+    "updatedAt": "2026-07-29T23:34:00.000Z"
+  },
+  {
+    "id": "ord_0056",
+    "orderNumber": "ORD-2026-0056",
+    "customerId": "cus_039",
+    "customerName": "Nusrat Chowdhury",
+    "customerEmail": "nusrat.chowdhury@gmail.com",
+    "status": "shipped",
+    "paymentMethod": "cod",
+    "channel": "web",
+    "shippingAddress": {
+      "city": "Rangpur",
+      "country": "Bangladesh"
+    },
+    "items": [
+      {
+        "productId": "prod_008",
+        "productName": "Portable SSD 1TB",
+        "quantity": 1,
+        "unitPrice": 89.99
+      },
+      {
+        "productId": "prod_006",
+        "productName": "Laptop Stand",
+        "quantity": 3,
+        "unitPrice": 39
+      },
+      {
+        "productId": "prod_001",
+        "productName": "Wireless Mouse",
+        "quantity": 1,
+        "unitPrice": 19.99
+      },
+      {
+        "productId": "prod_002",
+        "productName": "Mechanical Keyboard",
+        "quantity": 2,
+        "unitPrice": 79.99
+      }
+    ],
+    "discount": null,
+    "subtotal": 386.96,
+    "tax": 30.96,
+    "total": 417.92,
+    "createdAt": "2026-07-27T18:37:00.000Z",
+    "updatedAt": "2026-07-28T14:37:00.000Z"
+  },
+  {
+    "id": "ord_0057",
+    "orderNumber": "ORD-2026-0057",
+    "customerId": "cus_040",
+    "customerName": "Danial Haque",
+    "customerEmail": "danial.haque@yahoo.com",
+    "status": "refunded",
+    "paymentMethod": "card",
+    "channel": "web",
+    "shippingAddress": {
+      "city": "Dhaka",
+      "country": "Bangladesh"
+    },
+    "items": [
+      {
+        "productId": "prod_014",
+        "productName": "Graphics Tablet",
+        "quantity": 3,
+        "unitPrice": 199
+      },
+      {
+        "productId": "prod_007",
+        "productName": "Webcam 1080p",
+        "quantity": 3,
+        "unitPrice": 54.99
+      }
+    ],
+    "discount": null,
+    "subtotal": 761.97,
+    "tax": 60.96,
+    "total": 822.93,
+    "createdAt": "2026-07-27T16:42:00.000Z",
+    "updatedAt": "2026-07-29T21:42:00.000Z"
+  },
+  {
+    "id": "ord_0055",
+    "orderNumber": "ORD-2026-0055",
+    "customerId": "cus_031",
+    "customerName": "Rafiq Hossain",
+    "customerEmail": "rafiq.hossain@gmail.com",
+    "status": "delivered",
+    "paymentMethod": "cod",
+    "channel": "web",
+    "shippingAddress": {
+      "city": "Jashore",
+      "country": "Bangladesh"
+    },
+    "items": [
+      {
+        "productId": "prod_023",
+        "productName": "Laptop Sleeve",
+        "quantity": 2,
+        "unitPrice": 27.5
+      },
+      {
+        "productId": "prod_005",
+        "productName": "Noise Cancelling Headphones",
+        "quantity": 1,
+        "unitPrice": 129.99
+      }
+    ],
+    "discount": {
+      "code": "SAVE15",
+      "amount": 37
+    },
+    "subtotal": 184.99,
+    "tax": 11.84,
+    "total": 159.83,
+    "createdAt": "2026-07-26T10:08:00.000Z",
+    "updatedAt": "2026-07-28T13:08:00.000Z"
+  },
+  {
+    "id": "ord_0054",
+    "orderNumber": "ORD-2026-0054",
+    "customerId": "cus_042",
+    "customerName": "Rupa Chowdhury",
+    "customerEmail": "rupa.chowdhury@outlook.com",
+    "status": "delivered",
+    "paymentMethod": "card",
+    "channel": "web",
+    "shippingAddress": {
+      "city": "Sylhet",
+      "country": "Bangladesh"
+    },
+    "items": [
+      {
+        "productId": "prod_010",
+        "productName": "Ergonomic Chair Cushion",
+        "quantity": 2,
+        "unitPrice": 29.99
+      },
+      {
+        "productId": "prod_004",
+        "productName": "27\" Monitor",
+        "quantity": 3,
+        "unitPrice": 249
+      },
+      {
+        "productId": "prod_017",
+        "productName": "Cable Organizer Kit",
+        "quantity": 1,
+        "unitPrice": 12.99
+      }
+    ],
+    "discount": null,
+    "subtotal": 819.97,
+    "tax": 65.6,
+    "total": 885.57,
+    "createdAt": "2026-07-25T08:01:00.000Z",
+    "updatedAt": "2026-07-26T22:01:00.000Z"
+  },
+  {
+    "id": "ord_0053",
+    "orderNumber": "ORD-2026-0053",
+    "customerId": "cus_041",
+    "customerName": "Rafiq Mia",
+    "customerEmail": "rafiq.mia@gmail.com",
+    "status": "refunded",
+    "paymentMethod": "card",
+    "channel": "mobile",
+    "shippingAddress": {
+      "city": "Chattogram",
+      "country": "Bangladesh"
+    },
+    "items": [
+      {
+        "productId": "prod_024",
+        "productName": "Travel Adapter",
+        "quantity": 1,
+        "unitPrice": 18
+      },
+      {
+        "productId": "prod_001",
+        "productName": "Wireless Mouse",
+        "quantity": 1,
+        "unitPrice": 19.99
+      },
+      {
+        "productId": "prod_002",
+        "productName": "Mechanical Keyboard",
+        "quantity": 2,
+        "unitPrice": 79.99
+      }
+    ],
+    "discount": null,
+    "subtotal": 197.97,
+    "tax": 15.84,
+    "total": 213.81,
+    "createdAt": "2026-07-24T21:37:00.000Z",
+    "updatedAt": "2026-07-27T04:37:00.000Z"
+  },
+  {
+    "id": "ord_0052",
+    "orderNumber": "ORD-2026-0052",
+    "customerId": "cus_017",
+    "customerName": "Sadia Sarker",
+    "customerEmail": "sadia.sarker@yahoo.com",
+    "status": "processing",
+    "paymentMethod": "bank_transfer",
+    "channel": "web",
+    "shippingAddress": {
+      "city": "Dinajpur",
+      "country": "Bangladesh"
+    },
+    "items": [
+      {
+        "productId": "prod_011",
+        "productName": "Smartwatch",
+        "quantity": 1,
+        "unitPrice": 159
+      },
+      {
+        "productId": "prod_003",
+        "productName": "USB-C Hub",
+        "quantity": 1,
+        "unitPrice": 34.5
+      },
+      {
+        "productId": "prod_015",
+        "productName": "Mechanical Numpad",
+        "quantity": 3,
+        "unitPrice": 29.99
+      }
+    ],
+    "discount": null,
+    "subtotal": 283.47,
+    "tax": 22.68,
+    "total": 306.15,
+    "createdAt": "2026-07-24T14:23:00.000Z",
+    "updatedAt": "2026-07-24T20:23:00.000Z"
+  },
+  {
+    "id": "ord_0051",
+    "orderNumber": "ORD-2026-0051",
+    "customerId": "cus_021",
+    "customerName": "Khadija Begum",
+    "customerEmail": "khadija.begum@yahoo.com",
+    "status": "delivered",
+    "paymentMethod": "cod",
+    "channel": "mobile",
+    "shippingAddress": {
+      "city": "Rajshahi",
+      "country": "Bangladesh"
+    },
+    "items": [
+      {
+        "productId": "prod_004",
+        "productName": "27\" Monitor",
+        "quantity": 3,
+        "unitPrice": 249
+      },
+      {
+        "productId": "prod_017",
+        "productName": "Cable Organizer Kit",
+        "quantity": 2,
+        "unitPrice": 12.99
+      },
+      {
+        "productId": "prod_002",
+        "productName": "Mechanical Keyboard",
+        "quantity": 2,
+        "unitPrice": 79.99
+      }
+    ],
+    "discount": null,
+    "subtotal": 932.96,
+    "tax": 74.64,
+    "total": 1007.6,
+    "createdAt": "2026-07-22T22:24:00.000Z",
+    "updatedAt": "2026-07-23T11:24:00.000Z"
+  },
+  {
+    "id": "ord_0050",
+    "orderNumber": "ORD-2026-0050",
+    "customerId": "cus_033",
+    "customerName": "Afia Karim",
+    "customerEmail": "afia.karim@yahoo.com",
+    "status": "delivered",
+    "paymentMethod": "paypal",
+    "channel": "web",
+    "shippingAddress": {
+      "city": "Chattogram",
+      "country": "Bangladesh"
+    },
+    "items": [
+      {
+        "productId": "prod_020",
+        "productName": "Router - WiFi 6",
+        "quantity": 2,
+        "unitPrice": 129
+      },
+      {
+        "productId": "prod_017",
+        "productName": "Cable Organizer Kit",
+        "quantity": 2,
+        "unitPrice": 12.99
+      },
+      {
+        "productId": "prod_008",
+        "productName": "Portable SSD 1TB",
+        "quantity": 1,
+        "unitPrice": 89.99
+      }
+    ],
+    "discount": null,
+    "subtotal": 373.97,
+    "tax": 29.92,
+    "total": 403.89,
+    "createdAt": "2026-07-21T22:30:00.000Z",
+    "updatedAt": "2026-07-24T01:30:00.000Z"
+  },
+  {
+    "id": "ord_0049",
+    "orderNumber": "ORD-2026-0049",
+    "customerId": "cus_008",
+    "customerName": "Oyshi Khan",
+    "customerEmail": "oyshi.khan@outlook.com",
+    "status": "refunded",
+    "paymentMethod": "bank_transfer",
+    "channel": "web",
+    "shippingAddress": {
+      "city": "Mymensingh",
+      "country": "Bangladesh"
+    },
+    "items": [
+      {
+        "productId": "prod_010",
+        "productName": "Ergonomic Chair Cushion",
+        "quantity": 1,
+        "unitPrice": 29.99
+      },
+      {
+        "productId": "prod_006",
+        "productName": "Laptop Stand",
+        "quantity": 1,
+        "unitPrice": 39
+      },
+      {
+        "productId": "prod_022",
+        "productName": "USB Microphone",
+        "quantity": 2,
+        "unitPrice": 69
+      },
+      {
+        "productId": "prod_024",
+        "productName": "Travel Adapter",
+        "quantity": 3,
+        "unitPrice": 18
+      }
+    ],
+    "discount": null,
+    "subtotal": 260.99,
+    "tax": 20.88,
+    "total": 281.87,
+    "createdAt": "2026-07-20T11:08:00.000Z",
+    "updatedAt": "2026-07-21T07:08:00.000Z"
+  },
+  {
+    "id": "ord_0048",
+    "orderNumber": "ORD-2026-0048",
+    "customerId": "cus_021",
+    "customerName": "Khadija Begum",
+    "customerEmail": "khadija.begum@yahoo.com",
+    "status": "shipped",
+    "paymentMethod": "bank_transfer",
+    "channel": "api",
+    "shippingAddress": {
+      "city": "Rajshahi",
+      "country": "Bangladesh"
+    },
+    "items": [
+      {
+        "productId": "prod_017",
+        "productName": "Cable Organizer Kit",
+        "quantity": 2,
+        "unitPrice": 12.99
+      }
+    ],
+    "discount": null,
+    "subtotal": 25.98,
+    "tax": 2.08,
+    "total": 28.06,
+    "createdAt": "2026-07-19T20:46:00.000Z",
+    "updatedAt": "2026-07-20T13:46:00.000Z"
+  },
+  {
+    "id": "ord_0047",
+    "orderNumber": "ORD-2026-0047",
+    "customerId": "cus_029",
+    "customerName": "Orin Hossain",
+    "customerEmail": "orin.hossain@outlook.com",
+    "status": "delivered",
+    "paymentMethod": "card",
+    "channel": "mobile",
+    "shippingAddress": {
+      "city": "Bogura",
+      "country": "Bangladesh"
+    },
+    "items": [
+      {
+        "productId": "prod_015",
+        "productName": "Mechanical Numpad",
+        "quantity": 2,
+        "unitPrice": 29.99
+      },
+      {
+        "productId": "prod_008",
+        "productName": "Portable SSD 1TB",
+        "quantity": 2,
+        "unitPrice": 89.99
+      },
+      {
+        "productId": "prod_020",
+        "productName": "Router - WiFi 6",
+        "quantity": 1,
+        "unitPrice": 129
+      },
+      {
+        "productId": "prod_006",
+        "productName": "Laptop Stand",
+        "quantity": 1,
+        "unitPrice": 39
+      }
+    ],
+    "discount": {
+      "code": "FLASH25",
+      "amount": 81.59
+    },
+    "subtotal": 407.96,
+    "tax": 26.11,
+    "total": 352.48,
+    "createdAt": "2026-07-17T10:01:00.000Z",
+    "updatedAt": "2026-07-17T21:01:00.000Z"
+  },
+  {
+    "id": "ord_0046",
+    "orderNumber": "ORD-2026-0046",
+    "customerId": "cus_013",
+    "customerName": "Shakib Ahmed",
+    "customerEmail": "shakib.ahmed@yahoo.com",
+    "status": "processing",
+    "paymentMethod": "paypal",
+    "channel": "web",
+    "shippingAddress": {
+      "city": "Cox's Bazar",
+      "country": "Bangladesh"
+    },
+    "items": [
+      {
+        "productId": "prod_022",
+        "productName": "USB Microphone",
+        "quantity": 2,
+        "unitPrice": 69
+      }
+    ],
+    "discount": {
+      "code": "FLASH25",
+      "amount": 27.6
+    },
+    "subtotal": 138,
+    "tax": 8.83,
+    "total": 119.23,
+    "createdAt": "2026-07-16T08:56:00.000Z",
+    "updatedAt": "2026-07-18T13:56:00.000Z"
+  },
+  {
+    "id": "ord_0044",
+    "orderNumber": "ORD-2026-0044",
+    "customerId": "cus_004",
+    "customerName": "Shakib Rahman",
+    "customerEmail": "shakib.rahman@outlook.com",
+    "status": "processing",
+    "paymentMethod": "bank_transfer",
+    "channel": "web",
+    "shippingAddress": {
+      "city": "Rajshahi",
+      "country": "Bangladesh"
+    },
+    "items": [
+      {
+        "productId": "prod_023",
+        "productName": "Laptop Sleeve",
+        "quantity": 3,
+        "unitPrice": 27.5
+      }
+    ],
+    "discount": null,
+    "subtotal": 82.5,
+    "tax": 6.6,
+    "total": 89.1,
+    "createdAt": "2026-07-15T17:59:00.000Z",
+    "updatedAt": "2026-07-16T13:59:00.000Z"
+  },
+  {
+    "id": "ord_0045",
+    "orderNumber": "ORD-2026-0045",
+    "customerId": "cus_026",
+    "customerName": "Mahmuda Rahman",
+    "customerEmail": "mahmuda.rahman@yahoo.com",
+    "status": "delivered",
+    "paymentMethod": "cod",
+    "channel": "mobile",
+    "shippingAddress": {
+      "city": "Cumilla",
+      "country": "Bangladesh"
+    },
+    "items": [
+      {
+        "productId": "prod_006",
+        "productName": "Laptop Stand",
+        "quantity": 2,
+        "unitPrice": 39
+      },
+      {
+        "productId": "prod_019",
+        "productName": "Action Camera",
+        "quantity": 3,
+        "unitPrice": 179
+      },
+      {
+        "productId": "prod_007",
+        "productName": "Webcam 1080p",
+        "quantity": 1,
+        "unitPrice": 54.99
+      },
+      {
+        "productId": "prod_002",
+        "productName": "Mechanical Keyboard",
+        "quantity": 2,
+        "unitPrice": 79.99
+      }
+    ],
+    "discount": null,
+    "subtotal": 829.97,
+    "tax": 66.4,
+    "total": 896.37,
+    "createdAt": "2026-07-15T17:54:00.000Z",
+    "updatedAt": "2026-07-16T12:54:00.000Z"
+  },
+  {
+    "id": "ord_0042",
+    "orderNumber": "ORD-2026-0042",
+    "customerId": "cus_008",
+    "customerName": "Oyshi Khan",
+    "customerEmail": "oyshi.khan@outlook.com",
+    "status": "shipped",
+    "paymentMethod": "card",
+    "channel": "web",
+    "shippingAddress": {
+      "city": "Mymensingh",
+      "country": "Bangladesh"
+    },
+    "items": [
+      {
+        "productId": "prod_015",
+        "productName": "Mechanical Numpad",
+        "quantity": 1,
+        "unitPrice": 29.99
+      },
+      {
+        "productId": "prod_006",
+        "productName": "Laptop Stand",
+        "quantity": 1,
+        "unitPrice": 39
+      },
+      {
+        "productId": "prod_005",
+        "productName": "Noise Cancelling Headphones",
+        "quantity": 3,
+        "unitPrice": 129.99
+      }
+    ],
+    "discount": {
+      "code": "FLASH25",
+      "amount": 45.9
+    },
+    "subtotal": 458.96,
+    "tax": 33.04,
+    "total": 446.1,
+    "createdAt": "2026-07-14T21:05:00.000Z",
+    "updatedAt": "2026-07-16T20:05:00.000Z"
+  },
+  {
+    "id": "ord_0043",
+    "orderNumber": "ORD-2026-0043",
+    "customerId": "cus_019",
+    "customerName": "Delwar Hossain",
+    "customerEmail": "delwar.hossain@yahoo.com",
+    "status": "delivered",
+    "paymentMethod": "card",
+    "channel": "api",
+    "shippingAddress": {
+      "city": "Chattogram",
+      "country": "Bangladesh"
+    },
+    "items": [
+      {
+        "productId": "prod_004",
+        "productName": "27\" Monitor",
+        "quantity": 2,
+        "unitPrice": 249
+      }
+    ],
+    "discount": null,
+    "subtotal": 498,
+    "tax": 39.84,
+    "total": 537.84,
+    "createdAt": "2026-07-14T10:33:00.000Z",
+    "updatedAt": "2026-07-15T11:33:00.000Z"
+  },
+  {
+    "id": "ord_0039",
+    "orderNumber": "ORD-2026-0039",
+    "customerId": "cus_003",
+    "customerName": "Imran Akter",
+    "customerEmail": "imran.akter@mail.com",
+    "status": "processing",
+    "paymentMethod": "card",
+    "channel": "mobile",
+    "shippingAddress": {
+      "city": "Sylhet",
+      "country": "Bangladesh"
+    },
+    "items": [
+      {
+        "productId": "prod_001",
+        "productName": "Wireless Mouse",
+        "quantity": 2,
+        "unitPrice": 19.99
+      },
+      {
+        "productId": "prod_011",
+        "productName": "Smartwatch",
+        "quantity": 3,
+        "unitPrice": 159
+      }
+    ],
+    "discount": null,
+    "subtotal": 516.98,
+    "tax": 41.36,
+    "total": 558.34,
+    "createdAt": "2026-07-13T17:46:00.000Z",
+    "updatedAt": "2026-07-15T08:46:00.000Z"
+  },
+  {
+    "id": "ord_0040",
+    "orderNumber": "ORD-2026-0040",
+    "customerId": "cus_036",
+    "customerName": "Shakib Uddin",
+    "customerEmail": "shakib.uddin@yahoo.com",
+    "status": "shipped",
+    "paymentMethod": "cod",
+    "channel": "mobile",
+    "shippingAddress": {
+      "city": "Rajshahi",
+      "country": "Bangladesh"
+    },
+    "items": [
+      {
+        "productId": "prod_022",
+        "productName": "USB Microphone",
+        "quantity": 3,
+        "unitPrice": 69
+      },
+      {
+        "productId": "prod_018",
+        "productName": "Wireless Charger Pad",
+        "quantity": 1,
+        "unitPrice": 22.99
+      },
+      {
+        "productId": "prod_005",
+        "productName": "Noise Cancelling Headphones",
+        "quantity": 3,
+        "unitPrice": 129.99
+      },
+      {
+        "productId": "prod_021",
+        "productName": "Standing Desk Mat",
+        "quantity": 1,
+        "unitPrice": 45
+      }
+    ],
+    "discount": null,
+    "subtotal": 664.96,
+    "tax": 53.2,
+    "total": 718.16,
+    "createdAt": "2026-07-13T15:04:00.000Z",
+    "updatedAt": "2026-07-15T01:04:00.000Z"
+  },
+  {
+    "id": "ord_0041",
+    "orderNumber": "ORD-2026-0041",
+    "customerId": "cus_027",
+    "customerName": "Sumaiya Hossain",
+    "customerEmail": "sumaiya.hossain@yahoo.com",
+    "status": "pending",
+    "paymentMethod": "card",
+    "channel": "web",
+    "shippingAddress": {
+      "city": "Gazipur",
+      "country": "Bangladesh"
+    },
+    "items": [
+      {
+        "productId": "prod_014",
+        "productName": "Graphics Tablet",
+        "quantity": 3,
+        "unitPrice": 199
+      },
+      {
+        "productId": "prod_001",
+        "productName": "Wireless Mouse",
+        "quantity": 1,
+        "unitPrice": 19.99
+      },
+      {
+        "productId": "prod_012",
+        "productName": "Phone Case",
+        "quantity": 2,
+        "unitPrice": 14.99
+      }
+    ],
+    "discount": null,
+    "subtotal": 646.97,
+    "tax": 51.76,
+    "total": 698.73,
+    "createdAt": "2026-07-13T08:19:00.000Z",
+    "updatedAt": "2026-07-14T10:19:00.000Z"
+  },
+  {
+    "id": "ord_0038",
+    "orderNumber": "ORD-2026-0038",
+    "customerId": "cus_039",
+    "customerName": "Nusrat Chowdhury",
+    "customerEmail": "nusrat.chowdhury@gmail.com",
+    "status": "pending",
+    "paymentMethod": "card",
+    "channel": "web",
+    "shippingAddress": {
+      "city": "Rangpur",
+      "country": "Bangladesh"
+    },
+    "items": [
+      {
+        "productId": "prod_004",
+        "productName": "27\" Monitor",
+        "quantity": 3,
+        "unitPrice": 249
+      }
+    ],
+    "discount": null,
+    "subtotal": 747,
+    "tax": 59.76,
+    "total": 806.76,
+    "createdAt": "2026-07-12T12:49:00.000Z",
+    "updatedAt": "2026-07-14T08:49:00.000Z"
+  },
+  {
+    "id": "ord_0037",
+    "orderNumber": "ORD-2026-0037",
+    "customerId": "cus_015",
+    "customerName": "Nabila Chowdhury",
+    "customerEmail": "nabila.chowdhury@mail.com",
+    "status": "cancelled",
+    "paymentMethod": "card",
+    "channel": "web",
+    "shippingAddress": {
+      "city": "Tangail",
+      "country": "Bangladesh"
+    },
+    "items": [
+      {
+        "productId": "prod_010",
+        "productName": "Ergonomic Chair Cushion",
+        "quantity": 1,
+        "unitPrice": 29.99
+      }
+    ],
+    "discount": {
+      "code": "SAVE15",
+      "amount": 4.5
+    },
+    "subtotal": 29.99,
+    "tax": 2.04,
+    "total": 27.53,
+    "createdAt": "2026-07-11T21:28:00.000Z",
+    "updatedAt": "2026-07-12T06:28:00.000Z"
+  },
+  {
+    "id": "ord_0036",
+    "orderNumber": "ORD-2026-0036",
+    "customerId": "cus_029",
+    "customerName": "Orin Hossain",
+    "customerEmail": "orin.hossain@outlook.com",
+    "status": "delivered",
+    "paymentMethod": "card",
+    "channel": "mobile",
+    "shippingAddress": {
+      "city": "Bogura",
+      "country": "Bangladesh"
+    },
+    "items": [
+      {
+        "productId": "prod_010",
+        "productName": "Ergonomic Chair Cushion",
+        "quantity": 1,
+        "unitPrice": 29.99
+      },
+      {
+        "productId": "prod_019",
+        "productName": "Action Camera",
+        "quantity": 2,
+        "unitPrice": 179
+      }
+    ],
+    "discount": {
+      "code": "VIP20",
+      "amount": 58.2
+    },
+    "subtotal": 387.99,
+    "tax": 26.38,
+    "total": 356.17,
+    "createdAt": "2026-07-08T11:11:00.000Z",
+    "updatedAt": "2026-07-11T03:11:00.000Z"
+  },
+  {
+    "id": "ord_0035",
+    "orderNumber": "ORD-2026-0035",
+    "customerId": "cus_016",
+    "customerName": "Sabrina Ahmed",
+    "customerEmail": "sabrina.ahmed@yahoo.com",
+    "status": "cancelled",
+    "paymentMethod": "card",
+    "channel": "web",
+    "shippingAddress": {
+      "city": "Pabna",
+      "country": "Bangladesh"
+    },
+    "items": [
+      {
+        "productId": "prod_010",
+        "productName": "Ergonomic Chair Cushion",
+        "quantity": 2,
+        "unitPrice": 29.99
+      }
+    ],
+    "discount": null,
+    "subtotal": 59.98,
+    "tax": 4.8,
+    "total": 64.78,
+    "createdAt": "2026-07-07T19:34:00.000Z",
+    "updatedAt": "2026-07-09T05:34:00.000Z"
+  },
+  {
+    "id": "ord_0034",
+    "orderNumber": "ORD-2026-0034",
+    "customerId": "cus_027",
+    "customerName": "Sumaiya Hossain",
+    "customerEmail": "sumaiya.hossain@yahoo.com",
+    "status": "delivered",
+    "paymentMethod": "cod",
+    "channel": "web",
+    "shippingAddress": {
+      "city": "Gazipur",
+      "country": "Bangladesh"
+    },
+    "items": [
+      {
+        "productId": "prod_006",
+        "productName": "Laptop Stand",
+        "quantity": 1,
+        "unitPrice": 39
+      },
+      {
+        "productId": "prod_014",
+        "productName": "Graphics Tablet",
+        "quantity": 2,
+        "unitPrice": 199
+      },
+      {
+        "productId": "prod_004",
+        "productName": "27\" Monitor",
+        "quantity": 3,
+        "unitPrice": 249
+      }
+    ],
+    "discount": {
+      "code": "WELCOME10",
+      "amount": 296
+    },
+    "subtotal": 1184,
+    "tax": 71.04,
+    "total": 959.04,
+    "createdAt": "2026-07-06T09:41:00.000Z",
+    "updatedAt": "2026-07-09T00:41:00.000Z"
+  },
+  {
+    "id": "ord_0033",
+    "orderNumber": "ORD-2026-0033",
+    "customerId": "cus_025",
+    "customerName": "Mehnaz Rahman",
+    "customerEmail": "mehnaz.rahman@outlook.com",
+    "status": "cancelled",
+    "paymentMethod": "card",
+    "channel": "mobile",
+    "shippingAddress": {
+      "city": "Mymensingh",
+      "country": "Bangladesh"
+    },
+    "items": [
+      {
+        "productId": "prod_005",
+        "productName": "Noise Cancelling Headphones",
+        "quantity": 3,
+        "unitPrice": 129.99
+      },
+      {
+        "productId": "prod_016",
+        "productName": "Ring Light",
+        "quantity": 2,
+        "unitPrice": 32
+      },
+      {
+        "productId": "prod_006",
+        "productName": "Laptop Stand",
+        "quantity": 3,
+        "unitPrice": 39
+      },
+      {
+        "productId": "prod_001",
+        "productName": "Wireless Mouse",
+        "quantity": 1,
+        "unitPrice": 19.99
+      }
+    ],
+    "discount": null,
+    "subtotal": 590.96,
+    "tax": 47.28,
+    "total": 638.24,
+    "createdAt": "2026-07-01T20:16:00.000Z",
+    "updatedAt": "2026-07-03T13:16:00.000Z"
+  },
+  {
+    "id": "ord_0032",
+    "orderNumber": "ORD-2026-0032",
+    "customerId": "cus_040",
+    "customerName": "Danial Haque",
+    "customerEmail": "danial.haque@yahoo.com",
+    "status": "pending",
+    "paymentMethod": "bank_transfer",
+    "channel": "web",
+    "shippingAddress": {
+      "city": "Dhaka",
+      "country": "Bangladesh"
+    },
+    "items": [
+      {
+        "productId": "prod_009",
+        "productName": "Bluetooth Speaker",
+        "quantity": 3,
+        "unitPrice": 44.99
+      },
+      {
+        "productId": "prod_010",
+        "productName": "Ergonomic Chair Cushion",
+        "quantity": 3,
+        "unitPrice": 29.99
+      },
+      {
+        "productId": "prod_001",
+        "productName": "Wireless Mouse",
+        "quantity": 3,
+        "unitPrice": 19.99
+      }
+    ],
+    "discount": null,
+    "subtotal": 284.91,
+    "tax": 22.79,
+    "total": 307.7,
+    "createdAt": "2026-06-30T08:16:00.000Z",
+    "updatedAt": "2026-06-30T16:16:00.000Z"
+  },
+  {
+    "id": "ord_0031",
+    "orderNumber": "ORD-2026-0031",
+    "customerId": "cus_025",
+    "customerName": "Mehnaz Rahman",
+    "customerEmail": "mehnaz.rahman@outlook.com",
+    "status": "delivered",
+    "paymentMethod": "card",
+    "channel": "api",
+    "shippingAddress": {
+      "city": "Mymensingh",
+      "country": "Bangladesh"
+    },
+    "items": [
+      {
+        "productId": "prod_009",
+        "productName": "Bluetooth Speaker",
+        "quantity": 1,
+        "unitPrice": 44.99
+      }
+    ],
+    "discount": null,
+    "subtotal": 44.99,
+    "tax": 3.6,
+    "total": 48.59,
+    "createdAt": "2026-06-29T08:29:00.000Z",
+    "updatedAt": "2026-07-01T03:29:00.000Z"
+  },
+  {
+    "id": "ord_0030",
+    "orderNumber": "ORD-2026-0030",
+    "customerId": "cus_028",
+    "customerName": "Sabrina Begum",
+    "customerEmail": "sabrina.begum@yahoo.com",
+    "status": "pending",
+    "paymentMethod": "paypal",
+    "channel": "web",
+    "shippingAddress": {
+      "city": "Narayanganj",
+      "country": "Bangladesh"
+    },
+    "items": [
+      {
+        "productId": "prod_012",
+        "productName": "Phone Case",
+        "quantity": 2,
+        "unitPrice": 14.99
+      },
+      {
+        "productId": "prod_018",
+        "productName": "Wireless Charger Pad",
+        "quantity": 1,
+        "unitPrice": 22.99
+      }
+    ],
+    "discount": null,
+    "subtotal": 52.97,
+    "tax": 4.24,
+    "total": 57.21,
+    "createdAt": "2026-06-28T09:03:00.000Z",
+    "updatedAt": "2026-06-30T21:03:00.000Z"
+  },
+  {
+    "id": "ord_0029",
+    "orderNumber": "ORD-2026-0029",
+    "customerId": "cus_022",
+    "customerName": "Nadia Begum",
+    "customerEmail": "nadia.begum@outlook.com",
+    "status": "delivered",
+    "paymentMethod": "cod",
+    "channel": "web",
+    "shippingAddress": {
+      "city": "Khulna",
+      "country": "Bangladesh"
+    },
+    "items": [
+      {
+        "productId": "prod_009",
+        "productName": "Bluetooth Speaker",
+        "quantity": 1,
+        "unitPrice": 44.99
+      }
+    ],
+    "discount": null,
+    "subtotal": 44.99,
+    "tax": 3.6,
+    "total": 48.59,
+    "createdAt": "2026-06-25T15:10:00.000Z",
+    "updatedAt": "2026-06-26T06:10:00.000Z"
+  },
+  {
+    "id": "ord_0028",
+    "orderNumber": "ORD-2026-0028",
+    "customerId": "cus_004",
+    "customerName": "Shakib Rahman",
+    "customerEmail": "shakib.rahman@outlook.com",
+    "status": "shipped",
+    "paymentMethod": "card",
+    "channel": "web",
+    "shippingAddress": {
+      "city": "Rajshahi",
+      "country": "Bangladesh"
+    },
+    "items": [
+      {
+        "productId": "prod_024",
+        "productName": "Travel Adapter",
+        "quantity": 1,
+        "unitPrice": 18
+      },
+      {
+        "productId": "prod_004",
+        "productName": "27\" Monitor",
+        "quantity": 2,
+        "unitPrice": 249
+      },
+      {
+        "productId": "prod_003",
+        "productName": "USB-C Hub",
+        "quantity": 1,
+        "unitPrice": 34.5
+      }
+    ],
+    "discount": null,
+    "subtotal": 550.5,
+    "tax": 44.04,
+    "total": 594.54,
+    "createdAt": "2026-06-24T10:25:00.000Z",
+    "updatedAt": "2026-06-27T05:25:00.000Z"
+  },
+  {
+    "id": "ord_0027",
+    "orderNumber": "ORD-2026-0027",
+    "customerId": "cus_040",
+    "customerName": "Danial Haque",
+    "customerEmail": "danial.haque@yahoo.com",
+    "status": "delivered",
+    "paymentMethod": "card",
+    "channel": "web",
+    "shippingAddress": {
+      "city": "Dhaka",
+      "country": "Bangladesh"
+    },
+    "items": [
+      {
+        "productId": "prod_016",
+        "productName": "Ring Light",
+        "quantity": 3,
+        "unitPrice": 32
+      },
+      {
+        "productId": "prod_014",
+        "productName": "Graphics Tablet",
+        "quantity": 1,
+        "unitPrice": 199
+      }
+    ],
+    "discount": null,
+    "subtotal": 295,
+    "tax": 23.6,
+    "total": 318.6,
+    "createdAt": "2026-06-21T15:39:00.000Z",
+    "updatedAt": "2026-06-22T09:39:00.000Z"
+  },
+  {
+    "id": "ord_0026",
+    "orderNumber": "ORD-2026-0026",
+    "customerId": "cus_015",
+    "customerName": "Nabila Chowdhury",
+    "customerEmail": "nabila.chowdhury@mail.com",
+    "status": "processing",
+    "paymentMethod": "card",
+    "channel": "web",
+    "shippingAddress": {
+      "city": "Tangail",
+      "country": "Bangladesh"
+    },
+    "items": [
+      {
+        "productId": "prod_012",
+        "productName": "Phone Case",
+        "quantity": 1,
+        "unitPrice": 14.99
+      },
+      {
+        "productId": "prod_022",
+        "productName": "USB Microphone",
+        "quantity": 2,
+        "unitPrice": 69
+      },
+      {
+        "productId": "prod_013",
+        "productName": "Desk Lamp",
+        "quantity": 3,
+        "unitPrice": 24.5
+      },
+      {
+        "productId": "prod_007",
+        "productName": "Webcam 1080p",
+        "quantity": 3,
+        "unitPrice": 54.99
+      }
+    ],
+    "discount": {
+      "code": "FLASH25",
+      "amount": 58.72
+    },
+    "subtotal": 391.46,
+    "tax": 26.62,
+    "total": 359.36,
+    "createdAt": "2026-06-20T15:02:00.000Z",
+    "updatedAt": "2026-06-22T06:02:00.000Z"
+  },
+  {
+    "id": "ord_0025",
+    "orderNumber": "ORD-2026-0025",
+    "customerId": "cus_016",
+    "customerName": "Sabrina Ahmed",
+    "customerEmail": "sabrina.ahmed@yahoo.com",
+    "status": "pending",
+    "paymentMethod": "paypal",
+    "channel": "api",
+    "shippingAddress": {
+      "city": "Pabna",
+      "country": "Bangladesh"
+    },
+    "items": [
+      {
+        "productId": "prod_002",
+        "productName": "Mechanical Keyboard",
+        "quantity": 2,
+        "unitPrice": 79.99
+      },
+      {
+        "productId": "prod_001",
+        "productName": "Wireless Mouse",
+        "quantity": 3,
+        "unitPrice": 19.99
+      },
+      {
+        "productId": "prod_007",
+        "productName": "Webcam 1080p",
+        "quantity": 3,
+        "unitPrice": 54.99
+      }
+    ],
+    "discount": null,
+    "subtotal": 384.92,
+    "tax": 30.79,
+    "total": 415.71,
+    "createdAt": "2026-06-19T08:26:00.000Z",
+    "updatedAt": "2026-06-20T16:26:00.000Z"
+  },
+  {
+    "id": "ord_0024",
+    "orderNumber": "ORD-2026-0024",
+    "customerId": "cus_007",
+    "customerName": "Dewan Tariq",
+    "customerEmail": "dewan.tariq@gmail.com",
+    "status": "shipped",
+    "paymentMethod": "paypal",
+    "channel": "mobile",
+    "shippingAddress": {
+      "city": "Rangpur",
+      "country": "Bangladesh"
+    },
+    "items": [
+      {
+        "productId": "prod_013",
+        "productName": "Desk Lamp",
+        "quantity": 1,
+        "unitPrice": 24.5
+      },
+      {
+        "productId": "prod_009",
+        "productName": "Bluetooth Speaker",
+        "quantity": 3,
+        "unitPrice": 44.99
+      }
+    ],
+    "discount": {
+      "code": "VIP20",
+      "amount": 39.87
+    },
+    "subtotal": 159.47,
+    "tax": 9.57,
+    "total": 129.17,
+    "createdAt": "2026-06-18T09:19:00.000Z",
+    "updatedAt": "2026-06-19T20:19:00.000Z"
+  },
+  {
+    "id": "ord_0022",
+    "orderNumber": "ORD-2026-0022",
+    "customerId": "cus_034",
+    "customerName": "Aminul Islam",
+    "customerEmail": "aminul.islam@yahoo.com",
+    "status": "refunded",
+    "paymentMethod": "paypal",
+    "channel": "mobile",
+    "shippingAddress": {
+      "city": "Sylhet",
+      "country": "Bangladesh"
+    },
+    "items": [
+      {
+        "productId": "prod_004",
+        "productName": "27\" Monitor",
+        "quantity": 1,
+        "unitPrice": 249
+      },
+      {
+        "productId": "prod_008",
+        "productName": "Portable SSD 1TB",
+        "quantity": 1,
+        "unitPrice": 89.99
+      }
+    ],
+    "discount": null,
+    "subtotal": 338.99,
+    "tax": 27.12,
+    "total": 366.11,
+    "createdAt": "2026-06-13T21:29:00.000Z",
+    "updatedAt": "2026-06-14T10:29:00.000Z"
+  },
+  {
+    "id": "ord_0023",
+    "orderNumber": "ORD-2026-0023",
+    "customerId": "cus_030",
+    "customerName": "Farhana Yasmin",
+    "customerEmail": "farhana.yasmin@gmail.com",
+    "status": "pending",
+    "paymentMethod": "paypal",
+    "channel": "api",
+    "shippingAddress": {
+      "city": "Cox's Bazar",
+      "country": "Bangladesh"
+    },
+    "items": [
+      {
+        "productId": "prod_005",
+        "productName": "Noise Cancelling Headphones",
+        "quantity": 1,
+        "unitPrice": 129.99
+      }
+    ],
+    "discount": null,
+    "subtotal": 129.99,
+    "tax": 10.4,
+    "total": 140.39,
+    "createdAt": "2026-06-13T09:35:00.000Z",
+    "updatedAt": "2026-06-13T13:35:00.000Z"
+  },
+  {
+    "id": "ord_0021",
+    "orderNumber": "ORD-2026-0021",
+    "customerId": "cus_014",
+    "customerName": "Shirin Islam",
+    "customerEmail": "shirin.islam@outlook.com",
+    "status": "cancelled",
+    "paymentMethod": "card",
+    "channel": "web",
+    "shippingAddress": {
+      "city": "Jashore",
+      "country": "Bangladesh"
+    },
+    "items": [
+      {
+        "productId": "prod_013",
+        "productName": "Desk Lamp",
+        "quantity": 2,
+        "unitPrice": 24.5
+      },
+      {
+        "productId": "prod_021",
+        "productName": "Standing Desk Mat",
+        "quantity": 1,
+        "unitPrice": 45
+      },
+      {
+        "productId": "prod_015",
+        "productName": "Mechanical Numpad",
+        "quantity": 1,
+        "unitPrice": 29.99
+      },
+      {
+        "productId": "prod_014",
+        "productName": "Graphics Tablet",
+        "quantity": 1,
+        "unitPrice": 199
+      }
+    ],
+    "discount": null,
+    "subtotal": 322.99,
+    "tax": 25.84,
+    "total": 348.83,
+    "createdAt": "2026-06-12T09:17:00.000Z",
+    "updatedAt": "2026-06-14T21:17:00.000Z"
+  },
+  {
+    "id": "ord_0020",
+    "orderNumber": "ORD-2026-0020",
+    "customerId": "cus_027",
+    "customerName": "Sumaiya Hossain",
+    "customerEmail": "sumaiya.hossain@yahoo.com",
+    "status": "pending",
+    "paymentMethod": "paypal",
+    "channel": "web",
+    "shippingAddress": {
+      "city": "Gazipur",
+      "country": "Bangladesh"
+    },
+    "items": [
+      {
+        "productId": "prod_013",
+        "productName": "Desk Lamp",
+        "quantity": 2,
+        "unitPrice": 24.5
+      },
+      {
+        "productId": "prod_009",
+        "productName": "Bluetooth Speaker",
+        "quantity": 1,
+        "unitPrice": 44.99
+      }
+    ],
+    "discount": null,
+    "subtotal": 93.99,
+    "tax": 7.52,
+    "total": 101.51,
+    "createdAt": "2026-06-11T14:26:00.000Z",
+    "updatedAt": "2026-06-13T12:26:00.000Z"
+  },
+  {
+    "id": "ord_0019",
+    "orderNumber": "ORD-2026-0019",
+    "customerId": "cus_022",
+    "customerName": "Nadia Begum",
+    "customerEmail": "nadia.begum@outlook.com",
+    "status": "shipped",
+    "paymentMethod": "card",
+    "channel": "mobile",
+    "shippingAddress": {
+      "city": "Khulna",
+      "country": "Bangladesh"
+    },
+    "items": [
+      {
+        "productId": "prod_008",
+        "productName": "Portable SSD 1TB",
+        "quantity": 1,
+        "unitPrice": 89.99
+      },
+      {
+        "productId": "prod_003",
+        "productName": "USB-C Hub",
+        "quantity": 2,
+        "unitPrice": 34.5
+      }
+    ],
+    "discount": null,
+    "subtotal": 158.99,
+    "tax": 12.72,
+    "total": 171.71,
+    "createdAt": "2026-06-10T20:28:00.000Z",
+    "updatedAt": "2026-06-12T12:28:00.000Z"
+  },
+  {
+    "id": "ord_0018",
+    "orderNumber": "ORD-2026-0018",
+    "customerId": "cus_042",
+    "customerName": "Rupa Chowdhury",
+    "customerEmail": "rupa.chowdhury@outlook.com",
+    "status": "processing",
+    "paymentMethod": "card",
+    "channel": "mobile",
+    "shippingAddress": {
+      "city": "Sylhet",
+      "country": "Bangladesh"
+    },
+    "items": [
+      {
+        "productId": "prod_016",
+        "productName": "Ring Light",
+        "quantity": 2,
+        "unitPrice": 32
+      },
+      {
+        "productId": "prod_018",
+        "productName": "Wireless Charger Pad",
+        "quantity": 1,
+        "unitPrice": 22.99
+      },
+      {
+        "productId": "prod_022",
+        "productName": "USB Microphone",
+        "quantity": 1,
+        "unitPrice": 69
+      }
+    ],
+    "discount": null,
+    "subtotal": 155.99,
+    "tax": 12.48,
+    "total": 168.47,
+    "createdAt": "2026-06-08T12:25:00.000Z",
+    "updatedAt": "2026-06-08T21:25:00.000Z"
+  },
+  {
+    "id": "ord_0017",
+    "orderNumber": "ORD-2026-0017",
+    "customerId": "cus_006",
+    "customerName": "Ehsan Ahmed",
+    "customerEmail": "ehsan.ahmed@outlook.com",
+    "status": "pending",
+    "paymentMethod": "card",
+    "channel": "mobile",
+    "shippingAddress": {
+      "city": "Barishal",
+      "country": "Bangladesh"
+    },
+    "items": [
+      {
+        "productId": "prod_020",
+        "productName": "Router - WiFi 6",
+        "quantity": 2,
+        "unitPrice": 129
+      },
+      {
+        "productId": "prod_005",
+        "productName": "Noise Cancelling Headphones",
+        "quantity": 1,
+        "unitPrice": 129.99
+      },
+      {
+        "productId": "prod_021",
+        "productName": "Standing Desk Mat",
+        "quantity": 3,
+        "unitPrice": 45
+      },
+      {
+        "productId": "prod_010",
+        "productName": "Ergonomic Chair Cushion",
+        "quantity": 1,
+        "unitPrice": 29.99
+      }
+    ],
+    "discount": {
+      "code": "FLASH25",
+      "amount": 110.6
+    },
+    "subtotal": 552.98,
+    "tax": 35.39,
+    "total": 477.77,
+    "createdAt": "2026-06-07T08:59:00.000Z",
+    "updatedAt": "2026-06-08T20:59:00.000Z"
+  },
+  {
+    "id": "ord_0016",
+    "orderNumber": "ORD-2026-0016",
+    "customerId": "cus_018",
+    "customerName": "Mahmud Hasan",
+    "customerEmail": "mahmud.hasan@mail.com",
+    "status": "cancelled",
+    "paymentMethod": "bank_transfer",
+    "channel": "mobile",
+    "shippingAddress": {
+      "city": "Dhaka",
+      "country": "Bangladesh"
+    },
+    "items": [
+      {
+        "productId": "prod_021",
+        "productName": "Standing Desk Mat",
+        "quantity": 2,
+        "unitPrice": 45
+      },
+      {
+        "productId": "prod_005",
+        "productName": "Noise Cancelling Headphones",
+        "quantity": 2,
+        "unitPrice": 129.99
+      },
+      {
+        "productId": "prod_008",
+        "productName": "Portable SSD 1TB",
+        "quantity": 3,
+        "unitPrice": 89.99
+      }
+    ],
+    "discount": null,
+    "subtotal": 619.95,
+    "tax": 49.6,
+    "total": 669.55,
+    "createdAt": "2026-06-04T09:03:00.000Z",
+    "updatedAt": "2026-06-06T08:03:00.000Z"
+  },
+  {
+    "id": "ord_0015",
+    "orderNumber": "ORD-2026-0015",
+    "customerId": "cus_022",
+    "customerName": "Nadia Begum",
+    "customerEmail": "nadia.begum@outlook.com",
+    "status": "pending",
+    "paymentMethod": "bank_transfer",
+    "channel": "mobile",
+    "shippingAddress": {
+      "city": "Khulna",
+      "country": "Bangladesh"
+    },
+    "items": [
+      {
+        "productId": "prod_004",
+        "productName": "27\" Monitor",
+        "quantity": 3,
+        "unitPrice": 249
+      },
+      {
+        "productId": "prod_007",
+        "productName": "Webcam 1080p",
+        "quantity": 2,
+        "unitPrice": 54.99
+      },
+      {
+        "productId": "prod_023",
+        "productName": "Laptop Sleeve",
+        "quantity": 2,
+        "unitPrice": 27.5
+      },
+      {
+        "productId": "prod_001",
+        "productName": "Wireless Mouse",
+        "quantity": 2,
+        "unitPrice": 19.99
+      }
+    ],
+    "discount": {
+      "code": "FLASH25",
+      "amount": 95.2
+    },
+    "subtotal": 951.96,
+    "tax": 68.54,
+    "total": 925.3,
+    "createdAt": "2026-06-03T08:20:00.000Z",
+    "updatedAt": "2026-06-05T06:20:00.000Z"
+  },
+  {
+    "id": "ord_0014",
+    "orderNumber": "ORD-2026-0014",
+    "customerId": "cus_033",
+    "customerName": "Afia Karim",
+    "customerEmail": "afia.karim@yahoo.com",
+    "status": "delivered",
+    "paymentMethod": "card",
+    "channel": "web",
+    "shippingAddress": {
+      "city": "Chattogram",
+      "country": "Bangladesh"
+    },
+    "items": [
+      {
+        "productId": "prod_008",
+        "productName": "Portable SSD 1TB",
+        "quantity": 1,
+        "unitPrice": 89.99
+      },
+      {
+        "productId": "prod_016",
+        "productName": "Ring Light",
+        "quantity": 1,
+        "unitPrice": 32
+      },
+      {
+        "productId": "prod_013",
+        "productName": "Desk Lamp",
+        "quantity": 1,
+        "unitPrice": 24.5
+      }
+    ],
+    "discount": null,
+    "subtotal": 146.49,
+    "tax": 11.72,
+    "total": 158.21,
+    "createdAt": "2026-06-01T12:56:00.000Z",
+    "updatedAt": "2026-06-03T21:56:00.000Z"
+  },
+  {
+    "id": "ord_0013",
+    "orderNumber": "ORD-2026-0013",
+    "customerId": "cus_029",
+    "customerName": "Orin Hossain",
+    "customerEmail": "orin.hossain@outlook.com",
+    "status": "delivered",
+    "paymentMethod": "card",
+    "channel": "mobile",
+    "shippingAddress": {
+      "city": "Bogura",
+      "country": "Bangladesh"
+    },
+    "items": [
+      {
+        "productId": "prod_003",
+        "productName": "USB-C Hub",
+        "quantity": 1,
+        "unitPrice": 34.5
+      },
+      {
+        "productId": "prod_019",
+        "productName": "Action Camera",
+        "quantity": 1,
+        "unitPrice": 179
+      }
+    ],
+    "discount": null,
+    "subtotal": 213.5,
+    "tax": 17.08,
+    "total": 230.58,
+    "createdAt": "2026-06-01T12:24:00.000Z",
+    "updatedAt": "2026-06-02T21:24:00.000Z"
+  },
+  {
+    "id": "ord_0012",
+    "orderNumber": "ORD-2026-0012",
+    "customerId": "cus_018",
+    "customerName": "Mahmud Hasan",
+    "customerEmail": "mahmud.hasan@mail.com",
+    "status": "processing",
+    "paymentMethod": "card",
+    "channel": "web",
+    "shippingAddress": {
+      "city": "Dhaka",
+      "country": "Bangladesh"
+    },
+    "items": [
+      {
+        "productId": "prod_010",
+        "productName": "Ergonomic Chair Cushion",
+        "quantity": 2,
+        "unitPrice": 29.99
+      },
+      {
+        "productId": "prod_023",
+        "productName": "Laptop Sleeve",
+        "quantity": 2,
+        "unitPrice": 27.5
+      },
+      {
+        "productId": "prod_017",
+        "productName": "Cable Organizer Kit",
+        "quantity": 1,
+        "unitPrice": 12.99
+      },
+      {
+        "productId": "prod_015",
+        "productName": "Mechanical Numpad",
+        "quantity": 3,
+        "unitPrice": 29.99
+      }
+    ],
+    "discount": null,
+    "subtotal": 217.94,
+    "tax": 17.44,
+    "total": 235.38,
+    "createdAt": "2026-05-31T18:06:00.000Z",
+    "updatedAt": "2026-06-01T04:06:00.000Z"
+  },
+  {
+    "id": "ord_0011",
+    "orderNumber": "ORD-2026-0011",
+    "customerId": "cus_041",
+    "customerName": "Rafiq Mia",
+    "customerEmail": "rafiq.mia@gmail.com",
+    "status": "delivered",
+    "paymentMethod": "card",
+    "channel": "web",
+    "shippingAddress": {
+      "city": "Chattogram",
+      "country": "Bangladesh"
+    },
+    "items": [
+      {
+        "productId": "prod_011",
+        "productName": "Smartwatch",
+        "quantity": 3,
+        "unitPrice": 159
+      },
+      {
+        "productId": "prod_009",
+        "productName": "Bluetooth Speaker",
+        "quantity": 3,
+        "unitPrice": 44.99
+      }
+    ],
+    "discount": null,
+    "subtotal": 611.97,
+    "tax": 48.96,
+    "total": 660.93,
+    "createdAt": "2026-05-30T18:12:00.000Z",
+    "updatedAt": "2026-06-02T18:12:00.000Z"
+  },
+  {
+    "id": "ord_0010",
+    "orderNumber": "ORD-2026-0010",
+    "customerId": "cus_031",
+    "customerName": "Rafiq Hossain",
+    "customerEmail": "rafiq.hossain@gmail.com",
+    "status": "delivered",
+    "paymentMethod": "card",
+    "channel": "api",
+    "shippingAddress": {
+      "city": "Jashore",
+      "country": "Bangladesh"
+    },
+    "items": [
+      {
+        "productId": "prod_008",
+        "productName": "Portable SSD 1TB",
+        "quantity": 1,
+        "unitPrice": 89.99
+      },
+      {
+        "productId": "prod_024",
+        "productName": "Travel Adapter",
+        "quantity": 3,
+        "unitPrice": 18
+      },
+      {
+        "productId": "prod_007",
+        "productName": "Webcam 1080p",
+        "quantity": 3,
+        "unitPrice": 54.99
+      }
+    ],
+    "discount": null,
+    "subtotal": 308.96,
+    "tax": 24.72,
+    "total": 333.68,
+    "createdAt": "2026-05-29T12:51:00.000Z",
+    "updatedAt": "2026-06-01T03:51:00.000Z"
+  },
+  {
+    "id": "ord_0009",
+    "orderNumber": "ORD-2026-0009",
+    "customerId": "cus_016",
+    "customerName": "Sabrina Ahmed",
+    "customerEmail": "sabrina.ahmed@yahoo.com",
+    "status": "delivered",
+    "paymentMethod": "card",
+    "channel": "mobile",
+    "shippingAddress": {
+      "city": "Pabna",
+      "country": "Bangladesh"
+    },
+    "items": [
+      {
+        "productId": "prod_024",
+        "productName": "Travel Adapter",
+        "quantity": 3,
+        "unitPrice": 18
+      }
+    ],
+    "discount": null,
+    "subtotal": 54,
+    "tax": 4.32,
+    "total": 58.32,
+    "createdAt": "2026-05-28T15:16:00.000Z",
+    "updatedAt": "2026-05-29T02:16:00.000Z"
+  },
+  {
+    "id": "ord_0008",
+    "orderNumber": "ORD-2026-0008",
+    "customerId": "cus_042",
+    "customerName": "Rupa Chowdhury",
+    "customerEmail": "rupa.chowdhury@outlook.com",
+    "status": "delivered",
+    "paymentMethod": "paypal",
+    "channel": "mobile",
+    "shippingAddress": {
+      "city": "Sylhet",
+      "country": "Bangladesh"
+    },
+    "items": [
+      {
+        "productId": "prod_021",
+        "productName": "Standing Desk Mat",
+        "quantity": 1,
+        "unitPrice": 45
+      },
+      {
+        "productId": "prod_012",
+        "productName": "Phone Case",
+        "quantity": 2,
+        "unitPrice": 14.99
+      }
+    ],
+    "discount": null,
+    "subtotal": 74.98,
+    "tax": 6,
+    "total": 80.98,
+    "createdAt": "2026-05-28T11:05:00.000Z",
+    "updatedAt": "2026-05-31T10:05:00.000Z"
+  },
+  {
+    "id": "ord_0007",
+    "orderNumber": "ORD-2026-0007",
+    "customerId": "cus_019",
+    "customerName": "Delwar Hossain",
+    "customerEmail": "delwar.hossain@yahoo.com",
+    "status": "processing",
+    "paymentMethod": "cod",
+    "channel": "mobile",
+    "shippingAddress": {
+      "city": "Chattogram",
+      "country": "Bangladesh"
+    },
+    "items": [
+      {
+        "productId": "prod_023",
+        "productName": "Laptop Sleeve",
+        "quantity": 3,
+        "unitPrice": 27.5
+      }
+    ],
+    "discount": null,
+    "subtotal": 82.5,
+    "tax": 6.6,
+    "total": 89.1,
+    "createdAt": "2026-05-25T19:39:00.000Z",
+    "updatedAt": "2026-05-28T11:39:00.000Z"
+  },
+  {
+    "id": "ord_0006",
+    "orderNumber": "ORD-2026-0006",
+    "customerId": "cus_026",
+    "customerName": "Mahmuda Rahman",
+    "customerEmail": "mahmuda.rahman@yahoo.com",
+    "status": "delivered",
+    "paymentMethod": "paypal",
+    "channel": "web",
+    "shippingAddress": {
+      "city": "Cumilla",
+      "country": "Bangladesh"
+    },
+    "items": [
+      {
+        "productId": "prod_003",
+        "productName": "USB-C Hub",
+        "quantity": 3,
+        "unitPrice": 34.5
+      },
+      {
+        "productId": "prod_019",
+        "productName": "Action Camera",
+        "quantity": 1,
+        "unitPrice": 179
+      }
+    ],
+    "discount": null,
+    "subtotal": 282.5,
+    "tax": 22.6,
+    "total": 305.1,
+    "createdAt": "2026-05-24T08:19:00.000Z",
+    "updatedAt": "2026-05-26T09:19:00.000Z"
+  },
+  {
+    "id": "ord_0004",
+    "orderNumber": "ORD-2026-0004",
+    "customerId": "cus_033",
+    "customerName": "Afia Karim",
+    "customerEmail": "afia.karim@yahoo.com",
+    "status": "processing",
+    "paymentMethod": "card",
+    "channel": "api",
+    "shippingAddress": {
+      "city": "Chattogram",
+      "country": "Bangladesh"
+    },
+    "items": [
+      {
+        "productId": "prod_002",
+        "productName": "Mechanical Keyboard",
+        "quantity": 1,
+        "unitPrice": 79.99
+      },
+      {
+        "productId": "prod_015",
+        "productName": "Mechanical Numpad",
+        "quantity": 2,
+        "unitPrice": 29.99
+      },
+      {
+        "productId": "prod_006",
+        "productName": "Laptop Stand",
+        "quantity": 2,
+        "unitPrice": 39
+      }
+    ],
+    "discount": {
+      "code": "VIP20",
+      "amount": 43.59
+    },
+    "subtotal": 217.97,
+    "tax": 13.95,
+    "total": 188.33,
+    "createdAt": "2026-05-23T18:18:00.000Z",
+    "updatedAt": "2026-05-26T16:18:00.000Z"
+  },
+  {
+    "id": "ord_0005",
+    "orderNumber": "ORD-2026-0005",
+    "customerId": "cus_020",
+    "customerName": "Chaity Islam",
+    "customerEmail": "chaity.islam@gmail.com",
+    "status": "delivered",
+    "paymentMethod": "card",
+    "channel": "mobile",
+    "shippingAddress": {
+      "city": "Sylhet",
+      "country": "Bangladesh"
+    },
+    "items": [
+      {
+        "productId": "prod_013",
+        "productName": "Desk Lamp",
+        "quantity": 2,
+        "unitPrice": 24.5
+      },
+      {
+        "productId": "prod_003",
+        "productName": "USB-C Hub",
+        "quantity": 3,
+        "unitPrice": 34.5
+      },
+      {
+        "productId": "prod_016",
+        "productName": "Ring Light",
+        "quantity": 3,
+        "unitPrice": 32
+      }
+    ],
+    "discount": null,
+    "subtotal": 248.5,
+    "tax": 19.88,
+    "total": 268.38,
+    "createdAt": "2026-05-23T11:22:00.000Z",
+    "updatedAt": "2026-05-26T03:22:00.000Z"
+  },
+  {
+    "id": "ord_0003",
+    "orderNumber": "ORD-2026-0003",
+    "customerId": "cus_041",
+    "customerName": "Rafiq Mia",
+    "customerEmail": "rafiq.mia@gmail.com",
+    "status": "refunded",
+    "paymentMethod": "card",
+    "channel": "mobile",
+    "shippingAddress": {
+      "city": "Chattogram",
+      "country": "Bangladesh"
+    },
+    "items": [
+      {
+        "productId": "prod_005",
+        "productName": "Noise Cancelling Headphones",
+        "quantity": 1,
+        "unitPrice": 129.99
+      }
+    ],
+    "discount": {
+      "code": "VIP20",
+      "amount": 32.5
+    },
+    "subtotal": 129.99,
+    "tax": 7.8,
+    "total": 105.29,
+    "createdAt": "2026-05-22T10:25:00.000Z",
+    "updatedAt": "2026-05-23T06:25:00.000Z"
+  },
+  {
+    "id": "ord_0002",
+    "orderNumber": "ORD-2026-0002",
+    "customerId": "cus_036",
+    "customerName": "Shakib Uddin",
+    "customerEmail": "shakib.uddin@yahoo.com",
+    "status": "shipped",
+    "paymentMethod": "card",
+    "channel": "web",
+    "shippingAddress": {
+      "city": "Rajshahi",
+      "country": "Bangladesh"
+    },
+    "items": [
+      {
+        "productId": "prod_004",
+        "productName": "27\" Monitor",
+        "quantity": 3,
+        "unitPrice": 249
+      },
+      {
+        "productId": "prod_022",
+        "productName": "USB Microphone",
+        "quantity": 2,
+        "unitPrice": 69
+      },
+      {
+        "productId": "prod_021",
+        "productName": "Standing Desk Mat",
+        "quantity": 3,
+        "unitPrice": 45
+      },
+      {
+        "productId": "prod_014",
+        "productName": "Graphics Tablet",
+        "quantity": 2,
+        "unitPrice": 199
+      }
+    ],
+    "discount": null,
+    "subtotal": 1418,
+    "tax": 113.44,
+    "total": 1531.44,
+    "createdAt": "2026-05-21T11:32:00.000Z",
+    "updatedAt": "2026-05-23T02:32:00.000Z"
+  },
+  {
+    "id": "ord_0001",
+    "orderNumber": "ORD-2026-0001",
+    "customerId": "cus_020",
+    "customerName": "Chaity Islam",
+    "customerEmail": "chaity.islam@gmail.com",
+    "status": "shipped",
+    "paymentMethod": "card",
+    "channel": "mobile",
+    "shippingAddress": {
+      "city": "Sylhet",
+      "country": "Bangladesh"
+    },
+    "items": [
+      {
+        "productId": "prod_010",
+        "productName": "Ergonomic Chair Cushion",
+        "quantity": 3,
+        "unitPrice": 29.99
+      },
+      {
+        "productId": "prod_015",
+        "productName": "Mechanical Numpad",
+        "quantity": 3,
+        "unitPrice": 29.99
+      }
+    ],
+    "discount": {
+      "code": "VIP20",
+      "amount": 17.99
+    },
+    "subtotal": 179.94,
+    "tax": 12.96,
+    "total": 174.91,
+    "createdAt": "2026-05-20T18:19:00.000Z",
+    "updatedAt": "2026-05-22T02:19:00.000Z"
+  }
+]
