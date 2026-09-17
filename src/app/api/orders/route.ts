@@ -37,7 +37,7 @@ export async function GET(
         if (orderDate < fromDate) return false;
       }
       if (to) {
-        const toDate = new Date(to).getTime();
+        const toDate = new Date(to.includes("T") ? to : `${to}T23:59:59.999Z`).getTime();
         const orderDate = new Date(order.createdAt).getTime();
         if (orderDate > toDate) return false;
       }
