@@ -16,13 +16,19 @@ function getBaseUrl(): string {
   if (typeof window !== 'undefined') {
     return ''; 
   }
+  let base = '';
   if (process.env.NEXT_PUBLIC_APP_URL) {
-    return process.env.NEXT_PUBLIC_APP_URL;
+    base = process.env.NEXT_PUBLIC_APP_URL;
+  } else if (process.env.VERCEL_PROJECT_PRODUCTION_URL) {
+    base = `https://${process.env.VERCEL_PROJECT_PRODUCTION_URL}`;
+  } else if (process.env.VERCEL_URL) {
+    base = `https://${process.env.VERCEL_URL}`;
+  } else if (process.env.NODE_ENV === 'production') {
+    base = 'https://products-analysis-dashboard.vercel.app';
+  } else {
+    base = 'http://localhost:3000';
   }
-  if (process.env.VERCEL_URL) {
-    return `https://${process.env.VERCEL_URL}`;
-  }
-  return 'http://localhost:3000';
+  return base.replace(/\/+$/, '');
 }
 
 export async function apiClient<T>(
